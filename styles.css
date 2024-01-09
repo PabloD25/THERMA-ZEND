@@ -16,3 +16,14 @@
 .Carrusel .Encabezado_Carrusel .btn_carrusel:hover {
     background-color: #ffffff;
 }
+
+.Carrusel #Imagen_Carrusel {
+    width: 100%; /* Ancho del contenedor */
+    height: auto; /* Altura del contenedor */
+    overflow: hidden;
+}
+.Carrusel #Imagen_Carrusel img {
+    width: 100%; /* Ancho del contenedor */
+    height: auto; /* Altura del contenedor */
+    display: block;
+}
