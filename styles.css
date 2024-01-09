@@ -1,0 +1,38 @@
+.carousel {
+    width: 100%;
+    max-width: 600px; /* Ancho máximo del carrusel */
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide {
+    min-width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 20px; /* Ajusta la posición vertical del texto */
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(255, 255, 255, 0.7);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Añade estilos adicionales según sea necesario */
+  
