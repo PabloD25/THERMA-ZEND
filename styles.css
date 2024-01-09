@@ -1,3 +1,21 @@
+#Carrusel {
+    width: 100%; /* Ancho del div */
+    margin: 0 auto; /* Centra horizontalmente el div */
+    border: 3px solid green;
+}
+#Carrusel .Encabezado_Carrusel{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    border: 3px solid red;
+}
+
 #Carrusel .Encabezado_Carrusel .btn_carrusel {
     background-color: #3498db;
+}
+#Carrusel .Encabezado_Carrusel .btn_carrusel:hover {
+    background-color: #ffffff;
+}
+#Carrusel .Encabezado_Carrusel .btn_carrusel:checked {
+    background-color: #ff0000;
 }
