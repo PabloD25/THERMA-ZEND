@@ -23,13 +23,6 @@
 .Carrusel .Encabezado_Carrusel .btn_carrusel:hover {
     background-color: #ffffff;
 }
-
-.Carrusel .carrusel-imagenes {
-    position: relative;
-    width: 100%;
-    height: auto;
-    display: flex;
-}
   
 @keyframes Sale_por_derecha {
 from {
