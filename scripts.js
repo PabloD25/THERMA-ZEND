@@ -17,7 +17,9 @@ document.addEventListener('DOMContentLoaded', function() {
   btnCarrusel.forEach((btn, index) => {
     btn.addEventListener('click', function() {
 
-      const cantidadMovimiento = Math.abs(index - imagen_actual) * 25;
+      const cantidadMovimiento = index > imagen_actual ?
+      ((index - imagen_actual) * 25) + (imagen_actual * 25) : 
+      (imagen_actual * 25) - ((imagen_actual - index) * 25);
       
       if (imagen_actual !== index) {
         console.log(' CantidadMovimiento = ', cantidadMovimiento);
