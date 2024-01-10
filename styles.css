@@ -38,20 +38,38 @@
     animation: Entra_por_Derecha 1s forwards;
 }
   
-  @keyframes Sale_por_izquierda {
-    from {
-      transform: translateX(0);
-    }
-    to {
-      transform: translateX(-100%);
-    }
-  }
+@keyframes Sale_por_derecha {
+from {
+    transform: translateX(0);
+}
+to {
+    transform: translateX(100%);
+}
+}
+
+@keyframes Sale_por_izquierda {
+from {
+    transform: translateX(0);
+}
+to {
+    transform: translateX(-100%);
+}
+}
   
-  @keyframes Entra_por_Derecha {
+@keyframes Entra_por_derecha {
+from {
+    transform: translateX(100%);
+}
+to {
+    transform: translateX(0);
+}
+}
+
+@keyframes Entra_por_izquierda {
     from {
-      transform: translateX(100%);
+        transform: translateX(-100%);
     }
     to {
-      transform: translateX(0);
+        transform: translateX(0);
     }
-  }
+}

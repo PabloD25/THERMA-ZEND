@@ -14,12 +14,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
       // De imagen 1 a imagen 2 o Imagen 3
       if (imagen_actual == 0 && (index === 1 || index === 2)) {
-        imagenUno.style.animation = 'Sale_por_izquierda 1s forwards';
+        imagen_Uno.classList.remove('img_quieto');
+        imagen_Uno.classList.add('img_izquierda');
+        imagen_Uno.style.animation = '';
         if (index === 1){
-          imagen_Dos.style.animation = 'Entra_por_Derecha 1s forwards';
+          imagen_Dos.classList.remove('img_quieto');
+          imagen_Dos.classList.add('img_izquierda');
+          imagen_Dos.style.animation = '';
         }
         else{
-          imagen_Tres.style.animation = 'Entra_por_Derecha 1s forwards';
+          imagen_Tres.classList.remove('img_quieto');
+          imagen_Tres.classList.add('img_izquierda');
+          imagen_Tres.style.animation = '';
         }
       }
       /**
