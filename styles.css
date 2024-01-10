@@ -23,6 +23,22 @@
     background-color: #ffffff;
 }
 
-.Carrusel .Carrusel_Imagenes {
-    overflow: hidden;
+.Carrusel .Tabla_Img_Carrusel{
+    width: 100%;
+    table-layout: fixed;
 }
+
+.Carrusel .Tabla_Img_Carrusel td {
+    width: 33%;
+    text-align: center;
+    vertical-align: top;
+  }
+
+.Carrusel .Tabla_Img_Carrusel img {
+    width: 100%;
+    height: auto;
+  }
+
+  .Transicion {
+    transition: transform 0.5s ease-in-out;
+  }
