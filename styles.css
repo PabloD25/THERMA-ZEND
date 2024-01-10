@@ -1,17 +1,18 @@
 .Carrusel {
     width: 100%;
     margin: 0 auto;     
-    border: 3px solid green;
     position: relative;
+    overflow: hidden;
 }
 .Carrusel .Encabezado_Carrusel{
     position: absolute;
-    top: 0;
+    top: 2%;
     left: 50%;
     transform: translateX(-50%); 
     z-index: 1;
     width: 60%;
     text-align: center;
+    font-size: 50px;
 }
 
 .Carrusel .Encabezado_Carrusel .btn_carrusel {
@@ -24,7 +25,6 @@
 
 .Carrusel .Container_img_Carrusel{
     width: 400%;
-    border: 5px solid red;
 }
 
 .Carrusel .Tabla_Img_Carrusel{
