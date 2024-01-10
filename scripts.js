@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // Referencias
   const btnCarrusel = document.querySelectorAll('.btn_carrusel');
-  const tablaCarrusel = document.querySelector('.Tabla_Img_Carrusel');
+  const containerCarrusel = document.querySelector('.Container_img_Carrusel');
 
   
   // Funciones
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
       
       if (imagen_actual !== index) {
         console.log(' CantidadMovimiento = ', cantidadMovimiento);
-        moverItem(tablaCarrusel, index > imagen_actual ? 'izquierda' : 'derecha', cantidadMovimiento);
+        moverItem(containerCarrusel, index > imagen_actual ? 'izquierda' : 'derecha', cantidadMovimiento);
         imagen_actual = index;
         console.log('Imagen Actual = ', imagen_actual);
       }
