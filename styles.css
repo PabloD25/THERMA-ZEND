@@ -31,10 +31,12 @@
     display: flex;
 }
 
-.Carrusel .carrusel-imagenes .img_slide {
-    animation: slideOutToLeft 1s forwards;
-    animation: slideInFromRight 1s forwards;
+.Carrusel .carrusel-imagenes .img_izquierda {
+    animation: Sale_por_izquierda 1s forwards;
   }
+.Carrusel .carrusel-imagenes .img_derecha {
+    animation: Entra_por_Derecha 1s forwards;
+}
   
   @keyframes Sale_por_izquierda {
     from {
