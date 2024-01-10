@@ -3,6 +3,7 @@
     margin: 0 auto;     
     border: 3px solid green;
     position: relative;
+    overflow: hidden;
 }
 .Carrusel .Encabezado_Carrusel{
     position: absolute;
@@ -12,7 +13,6 @@
     z-index: 1;
     width: 60%;
     text-align: center;
-    border: 3px solid red;
 }
 
 .Carrusel .Encabezado_Carrusel .btn_carrusel {
@@ -23,13 +23,17 @@
     background-color: #ffffff;
 }
 
+.Carrusel .Container_img_Carrusel{
+    width: 400%;
+    border: 5px solid red;
+}
+
 .Carrusel .Tabla_Img_Carrusel{
     width: 100%;
-    table-layout: fixed;
 }
 
 .Carrusel .Tabla_Img_Carrusel td {
-    width: 33%;
+    width: 25%;
     text-align: center;
     vertical-align: top;
   }
