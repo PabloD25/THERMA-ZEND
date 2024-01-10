@@ -3,7 +3,6 @@
     margin: 0 auto;     
     border: 3px solid green;
     position: relative;
-    overflow: hidden;
 }
 .Carrusel .Encabezado_Carrusel{
     position: absolute;
@@ -23,39 +22,7 @@
 .Carrusel .Encabezado_Carrusel .btn_carrusel:hover {
     background-color: #ffffff;
 }
-  
-@keyframes Sale_por_derecha {
-from {
-    transform: translateX(0);
-}
-to {
-    transform: translateX(100%);
-}
-}
 
-@keyframes Sale_por_izquierda {
-from {
-    transform: translateX(0);
-}
-to {
-    transform: translateX(-100%);
-}
-}
-  
-@keyframes Entra_por_derecha {
-from {
-    transform: translateX(100%);
-}
-to {
-    transform: translateX(0);
-}
-}
-
-@keyframes Entra_por_izquierda {
-    from {
-        transform: translateX(-100%);
-    }
-    to {
-        transform: translateX(0);
-    }
+.Carrusel .Carrusel_Imagenes {
+    overflow: hidden;
 }
