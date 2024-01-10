@@ -2,10 +2,15 @@
     width: 100%; /* Ancho del div */
     margin: 0 auto; /* Centra horizontalmente el div */
     border: 3px solid green;
+    position: relative;
 }
 .Carrusel .Encabezado_Carrusel{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%); 
+    z-index: 1;
     width: 60%;
-    margin: 0 auto;
     text-align: center;
     border: 3px solid red;
 }
