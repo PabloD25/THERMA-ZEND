@@ -1,8 +1,9 @@
 .Carrusel {
-    width: 100%; /* Ancho del div */
-    margin: 0 auto; /* Centra horizontalmente el div */
+    width: 100%;
+    margin: 0 auto;     
     border: 3px solid green;
     position: relative;
+    overflow: hidden;
 }
 .Carrusel .Encabezado_Carrusel{
     position: absolute;
@@ -18,17 +19,40 @@
 .Carrusel .Encabezado_Carrusel .btn_carrusel {
     background-color: #3498db;
 }
+
 .Carrusel .Encabezado_Carrusel .btn_carrusel:hover {
     background-color: #ffffff;
 }
 
-.Carrusel #Imagen_Carrusel {
-    width: 100%; /* Ancho del contenedor */
-    height: auto; /* Altura del contenedor */
-    overflow: hidden;
+.Carrusel .carrusel-imagenes {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
 }
-.Carrusel #Imagen_Carrusel img {
-    width: 100%; /* Ancho del contenedor */
-    height: auto; /* Altura del contenedor */
-    display: block;
-}
+
+.imagen-actual {
+    animation: slideOutToLeft 1s forwards;
+  }
+  
+  .imagen-nueva {
+    animation: slideInFromRight 1s forwards;
+  }
+  
+  @keyframes slideOutToLeft {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  @keyframes slideInFromRight {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
