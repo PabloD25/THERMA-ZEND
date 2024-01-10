@@ -4,10 +4,37 @@ document.addEventListener('DOMContentLoaded', function() {
   const imagenes = document.querySelectorAll('#Imagen_Carrusel img');
   const btnCarrusel = document.querySelectorAll('.btn_carrusel');
   
+  var imagen_actual = 0;
+
   btnCarrusel.forEach((btn, index) => {
     btn.addEventListener('click', function() {
-      const imagenActual = document.querySelector('.imagen-actual');
-      const imagenNueva = document.querySelector('.imagen-nueva');
+      const imagen_Uno = document.querySelector('.imagen_1');
+      const imagen_Dos = document.querySelector('.imagen_2');
+      const imagen_Tres = document.querySelector('.imagen_3');
+
+      // De imagen 1 a imagen 2 o Imagen 3
+      if (imagen_actual == 0 && (index === 1 || index === 2)) {
+        imagenUno.style.animation = 'Sale_por_izquierda 1s forwards';
+        if (index === 1){
+          imagen_Dos.style.animation = 'Entra_por_Derecha 1s forwards';
+        }
+        else{
+          imagen_Tres.style.animation = 'Entra_por_Derecha 1s forwards';
+        }
+      }
+      /**
+      else if (index === 1 && ){
+
+      }
+      // De imagen 2 a imagen 1
+      else if(){
+
+      }
+      // De una imagen a si misma
+      else{
+        // No pasa nada
+      }
+
   
       imagenActual.classList.remove('imagen-actual');
       imagenActual.classList.add('imagen-nueva');
@@ -18,6 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
       imagenNueva.style.animation = '';
   
       imagenes[index].classList.add('imagen-nueva');
+       */
     });
   });
 });

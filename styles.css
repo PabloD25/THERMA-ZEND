@@ -31,15 +31,12 @@
     display: flex;
 }
 
-.imagen-actual {
+.Carrusel .carrusel-imagenes .img_slide {
     animation: slideOutToLeft 1s forwards;
-  }
-  
-  .imagen-nueva {
     animation: slideInFromRight 1s forwards;
   }
   
-  @keyframes slideOutToLeft {
+  @keyframes Sale_por_izquierda {
     from {
       transform: translateX(0);
     }
@@ -48,7 +45,7 @@
     }
   }
   
-  @keyframes slideInFromRight {
+  @keyframes Entra_por_Derecha {
     from {
       transform: translateX(100%);
     }
