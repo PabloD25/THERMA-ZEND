@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // Funciones
   function moverItem(item, direccion, cantidad) {
-    const movimiento = direccion === 'izquierda' ? `translateX(-${cantidad}%)` : `translateX(${cantidad}%)`;
+    const movimiento = direccion === 'izquierda' ? `translateX(-${cantidad}%)` : `translateX(-${cantidad}%)`;
     item.classList.add('Transicion');
     item.style.transform = movimiento;
   }
