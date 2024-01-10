@@ -1,29 +1,35 @@
-// Donde se va a mostrar la imagen del carrusel
-const contenedorImagen = document.getElementById('Imagen_Carrusel');
+// Codigo que se ejecuta soloc cuando ya termino de cargar el HTML
+document.addEventListener('DOMContentLoaded', function() {
+  // Obtener la referencia de la imagen dentro del contenedor
+  const slide = document.querySelector('#Imagen_Carrusel img');
 
-// Función para cambiar la imagen del carrusel
-function cambiarImagen(rutaImagen) {
-  // Limpia el contenido del contenedor antes de agregar una nueva imagen
-  contenedorImagen.innerHTML = '';
+  // Función para cambiar la imagen del carrusel
+  function cambiarImagen(rutaImagen) {
+    // Cambiar el atributo 'src' de la imagen
+    slide.src = rutaImagen;
+  }
 
-  // Crea un nuevo elemento de imagen
-  const imagen = document.createElement('img');
+  // Al cargar la pagina
+  document.addEventListener('DOMContentLoaded', function() {
+    // Imagen 1 se pone por defecto
+    cambiarImagen('images/Imagen1.png');
+  });
 
-  // Establece el atributo 'src' con la nueva URL de la imagen
-  imagen.src = rutaImagen;
+  // btn_carrusel_1
+  const btn_Ca1 = document.getElementById('btn_carrusel_1');
+  btn_Ca1.addEventListener('click', function() {
+    cambiarImagen('images/Imagen1.png');
+  });
 
-  // Agrega la imagen al contenedor
-  contenedorImagen.appendChild(imagen);
-}
+  // btn_carrusel_2
+  const btn_Ca2 = document.getElementById('btn_carrusel_2');
+  btn_Ca2.addEventListener('click', function() {
+    cambiarImagen('images/Imagen2.png');
+  });
 
-// btn_carrusel_1
-const btn_Ca1 = document.getElementById('btn_carrusel_1');
-btn_Ca1.addEventListener('click', function() {
-  cambiarImagen('images/Imagen1.png'); // Cambia la imagen al hacer clic en el botón 1
-});
-
-// btn_carrusel_2
-const btn_Ca2 = document.getElementById('btn_carrusel_2');
-btn_Ca2.addEventListener('click', function() {
-  cambiarImagen('images/Imagen2.png');// Cambia la imagen al hacer clic en el botón 2
+  // btn_carrusel_3
+  const btn_Ca3 = document.getElementById('btn_carrusel_3');
+  btn_Ca3.addEventListener('click', function() {
+    cambiarImagen('images/Imagen3.png');
+  });
 });
