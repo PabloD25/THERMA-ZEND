@@ -64,3 +64,24 @@
 .Parrafo_1 p{
     font-size: 25px;
 }
+
+.Accesorios{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px; 
+}
+
+.Accesorios h1{
+    font-size: 50px;
+}
+
+.Accesorios .Tabla_Accesorios {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.Accesorios .Tabla_Accesorios td {
+    border: 1px solid white;
+    padding: 8px;
+  }
