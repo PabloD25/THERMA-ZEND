@@ -81,7 +81,32 @@
     border-collapse: collapse;
 }
 
-.Accesorios .Tabla_Accesorios td {
-    border: 1px solid white;
-    padding: 8px;
-  }
+.Accesorios .Tabla_Accesorios .Tarjeta_Accesorios{
+    width: 80%;
+    height: auto;
+    border-radius: 25px;
+    border: 3px solid white;
+    padding: 20px;
+    display: block;
+    margin: auto;
+}
+
+.Accesorios .Tabla_Accesorios .img_accesorios{
+    max-width: 100%;
+    height: auto;
+}
+
+.Accesorios .Tabla_Accesorios .btn_accesorios{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.Parrafo_2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.Parrafo_2 h1{
+    font-size: 50px;
+}
