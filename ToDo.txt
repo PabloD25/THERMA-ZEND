@@ -1,0 +1,2 @@
+Por hacer:
+- Cambiar el color de la interfaz, no usar blanco y negro puros, usar otros tonos 
