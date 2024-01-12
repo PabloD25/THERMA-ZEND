@@ -41,9 +41,30 @@
     width: 100%;
     height: auto;
 }
+.Carrusel .Tabla_Img_Carrusel .btn_carrusel_imagen{
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    background-color: black;
+
+    border-radius: 25px;
+    border: 5px solid white;
+
+    font-size: 30px;
+    font-family: "boogaloo", serif;
+    color: white;
+
+    padding: 20px 40px;
+
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    z-index: 1;
+}
 .Transicion {
     transition: transform 0.5s ease-in-out;
 }
+
 
 .Parrafo_1 {
     text-align: center;
