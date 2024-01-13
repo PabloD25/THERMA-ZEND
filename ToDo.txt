@@ -6,12 +6,15 @@ General:
     * Accesorios
     * Nosotros (Historia, Mision, Vision)
     // Tratar de hacer que conecten mas con el publico 
-- Crearles redes sociales
 
 Dobladoras:
 - Hacer el "Explore #DoWhatYouWant" en Dobladoras
 - Seran las caracteristicas generales de las dobladoras
 - No poner enlaces, pero si hacer que cuando pasen el mouse por una de las caracteristicas estas cambien de color sus bordes o se hagan mas grandes o algo
+
+Index / Pie de pagina:
+- Poner sus redes sociales
+- Crearles redes sociales
 
 Al final:
 - Revisar todos los textos con el Autocorrector
