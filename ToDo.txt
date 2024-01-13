@@ -1,5 +1,6 @@
 General: 
 - Cambiar el color de la interfaz, no usar blanco, Rojo y negro puros, usar otros tonos
+- Cambair las imagenes de gatos
 - Poner los textos que Vero te mande
     * Dobladoras (Modelos y caracteristicas)
     * Accesorios
