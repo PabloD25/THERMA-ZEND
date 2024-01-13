@@ -13,6 +13,7 @@
     width: 60%;
     text-align: center;
     font-size: 50px;
+    color: red;
     border-collapse: collapse;
 }
 .Carrusel .Encabezado_Carrusel .btn_carrusel {
@@ -79,20 +80,20 @@
     font-size: 25px;
 }
 
-.Accesorios{
+.Vendidos{
     text-align: center;
     background-color: black;
     color: white;
     padding: 20px; 
 }
-.Accesorios h1{
+.Vendidos h1{
     font-size: 50px;
 }
-.Accesorios .Tabla_Accesorios {
+.Vendidos .Tabla_Vendidos {
     width: 100%;
     border-collapse: collapse;
 }
-.Accesorios .Tabla_Accesorios .Tarjeta_Accesorios{
+.Vendidos .Tabla_Vendidos .Tarjeta_Vendidos{
     width: 80%;
     height: auto;
     padding: 20px;
@@ -106,13 +107,13 @@
     margin: auto;
 }
 
-.Accesorios .Tabla_Accesorios .img_accesorios{
+.Vendidos .Tabla_Vendidos .img_Vendidos{
     max-width: 100%;
     height: auto;
     border-radius: 10px;
 }
 
-.Accesorios .Tabla_Accesorios .btn_accesorios{
+.Vendidos .Tabla_Vendidos .btn_Vendidos{
     max-width: 100%;
     height: auto;
     margin-top: 20px;
@@ -129,7 +130,7 @@
 
 }
 
-.Accesorios .Tabla_Accesorios .btn_accesorios:hover {
+.Vendidos .Tabla_Vendidos .btn_Vendidos:hover {
     background-color: white;
     color: black;
 }
@@ -139,11 +140,11 @@
     padding: 20px;
 }
 
-.Parrafo_2 h1{
+.Parrafo_2 h1 {
     font-size: 50px;
 }
-.Parrafo_2 p{
-    font-size: 50px;
+.Parrafo_2 p {
+    font-size: 25px;
 }
 
 .Galeria {

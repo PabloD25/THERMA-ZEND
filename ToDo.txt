@@ -1,11 +1,8 @@
-Por hacer:
-- Cambiar el color de la interfaz, no usar blanco y negro puros, usar otros tonos 
+General: 
+- Cambiar el color de la interfaz, no usar blanco, Rojo y negro puros, usar otros tonos
+- Poner los textos que Vero te mande
 
-Zoom 1:
-Vero te va a mandar la información, tu solo ponla
-
-Si cambiar accesorios por --> Productos mas vendidos
-
-En el "Explore #DoWhatYouWant"
+Dobladoras:
+- Hacer el "Explore #DoWhatYouWant" en Dobladoras
 - Seran las caracteristicas generales de las dobladoras
 - No poner enlaces, pero si hacer que cuando pasen el mouse por una de las caracteristicas estas cambien de color sus bordes o se hagan mas grandes o algo
