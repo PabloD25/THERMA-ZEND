@@ -147,12 +147,36 @@
     font-size: 25px;
 }
 
-.Galeria {
+.Nosotros .Tabla_Nosotros{ 
+    width: 100%;
+    height: auto;
     padding: 20px;
-    text-align: center;
-    background-color: black;
+    background-color: red;
+
 }
-.Galeria h1 {
+.Nosotros .Tabla_Nosotros h1{
     font-size: 50px;
-    color: white;
+}
+
+.Nosotros .Tabla_Nosotros td{ 
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    background-color: blue;
+
+    text-align: justify;
+    font-size: 20px;
+
+}
+
+.Pie_De_Pagina{
+    width: 100%;
+    height: auto;
+}
+
+.Pie_De_Pagina .Tabla_Pie_De_Pagina{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: #e9e8e9;
 }
