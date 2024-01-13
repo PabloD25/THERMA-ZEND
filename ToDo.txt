@@ -1,2 +1,3 @@
 Por hacer:
 - Cambiar el color de la interfaz, no usar blanco y negro puros, usar otros tonos 
+- Una vez terminado todo, juntar styles.css en uno solo o almenos quitar los repetidos 
