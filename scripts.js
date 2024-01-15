@@ -33,16 +33,16 @@ document.addEventListener('DOMContentLoaded', function() {
   /* Carrusel_2 */
   // Imagenes
   const diccionario_Clientes = {
-    0: '<img src="images/imagen1.png" alt="Cliente 1">',
-    1: '<img src="images/imagen2.png" alt="Cliente 2">',
-    2: '<img src="images/imagen3.png" alt="Cliente 3">',
-    3: '<img src="images/imagen4.png" alt="Cliente 4">',
-    4: '<img src="images/imagen5.png" alt="Cliente 5">',
-    5: '<img src="images/imagen6.png" alt="Cliente 6">',
-    6: '<img src="images/imagen7.png" alt="Cliente 7">',
-    7: '<img src="images/imagen8.png" alt="Cliente 8">',
-    8: '<img src="images/imagen9.png" alt="Cliente 9">',
-    9: '<img src="images/imagen10.png" alt="Cliente 10">'
+    0: '<img src="images/Imagen1.png" alt="Cliente 1">',
+    1: '<img src="images/Imagen2.png" alt="Cliente 2">',
+    2: '<img src="images/Imagen3.png" alt="Cliente 3">',
+    3: '<img src="images/Imagen4.png" alt="Cliente 4">',
+    4: '<img src="images/Imagen5.png" alt="Cliente 5">',
+    5: '<img src="images/Imagen6.png" alt="Cliente 6">',
+    6: '<img src="images/Imagen7.png" alt="Cliente 7">',
+    7: '<img src="images/Imagen8.png" alt="Cliente 8">',
+    8: '<img src="images/Imagen9.png" alt="Cliente 9">',
+    9: '<img src="images/Imagen10.png" alt="Cliente 10">'
   };
 
   // Referencias
