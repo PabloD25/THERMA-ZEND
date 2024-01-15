@@ -48,14 +48,31 @@ document.addEventListener('DOMContentLoaded', function() {
   // Referencias
   const btnSiguiente = document.getElementById('btn_Siguiente_Carrusel_2');
   const btnAnterior = document.getElementById('btn_Anterior_Carrusel_2');
-  const celdaConImagen = document.getElementById('');
-  const celdaConImagen = document.getElementById('celdaConImagen');
-  const celdaConImagen = document.getElementById('celdaConImagen');
-  const celdaConImagen = document.getElementById('celdaConImagen');
-  const celdaConImagen = document.getElementById('celdaConImagen');
+  const celClientes1 = document.getElementById('Celda_Clientes_1');
+  const celClientes2 = document.getElementById('Celda_Clientes_2');
+  const celClientes3 = document.getElementById('Celda_Clientes_3');
+  const celClientes4 = document.getElementById('Celda_Clientes_4');
+  const celClientes5 = document.getElementById('Celda_Clientes_5');
 
+  var index_C2 = 0;
 
+  btnSiguiente.addEventListener('click', function() {
+    index_C2++;
+    if (index_C2 >= Object.keys(diccionario_Clientes).length) {
+      // Si llega al final, vuelve al principio
+      index_C2 = 0;
+    }
+    actualizarClientes();
+  });
 
-
+  function actualizarClientes(){
+    celClientes1.innerHTML = diccionario_Clientes[0 + index_C2];
+    celClientes2.innerHTML = diccionario_Clientes[1 + index_C2];
+    celClientes3.innerHTML = diccionario_Clientes[2 + index_C2];
+    celClientes4.innerHTML = diccionario_Clientes[3 + index_C2];
+    celClientes5.innerHTML = diccionario_Clientes[4 + index_C2];
+  }
+  // Llama a actualizarClientes inicialmente para mostrar las imágenes iniciales
+  actualizarClientes();
 
 });
