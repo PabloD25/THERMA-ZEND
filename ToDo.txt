@@ -1,20 +1,13 @@
-General: 
-- Cambiar el color de la interfaz, no usar blanco, Rojo y negro puros, usar otros tonos
-- Cambair las imagenes de gatos
-- Poner los textos que Vero te mande
-    * Dobladoras (Modelos y caracteristicas)
-    * Accesorios
-    * Nosotros (Historia, Mision, Vision)
-    // Tratar de hacer que conecten mas con el publico 
-
 Dobladoras:
 - Hacer el "Explore #DoWhatYouWant" en Dobladoras
 - Seran las caracteristicas generales de las dobladoras
 - No poner enlaces, pero si hacer que cuando pasen el mouse por una de las caracteristicas estas cambien de color sus bordes o se hagan mas grandes o algo
 
 Index / Pie de pagina:
-- Poner sus redes sociales
 - Crearles redes sociales
 
 Al final:
+- Cambiar el color de la interfaz, no usar blanco, Rojo y negro puros, usar otros tonos
+- Cambiar el tipo de letra
+- Cambair las imagenes de gatos
 - Revisar todos los textos con el Autocorrector
