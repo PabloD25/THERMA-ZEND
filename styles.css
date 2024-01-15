@@ -188,7 +188,6 @@
     position: relative;
     width: 100%;
     overflow: hidden;
-    background-color: blue;
     text-align: center;
 }
 .Clientes .Carrusel_2 .Container_img_Carrusel_2{
@@ -199,7 +198,6 @@
 }
 .Clientes .Carrusel_2 .Container_img_Carrusel_2 .img_carrusel_2{
     width: 40%;
-    background-color: green;
 }
 .Clientes .Carrusel_2 .Container_img_Carrusel_2 img{
     width: 80%;
@@ -217,11 +215,11 @@
     border: none;
 }
 #btn_Anterior_Carrusel_2 {
-    left: 10px;
+    left: 1%;
 }
 
 #btn_Siguiente_Carrusel_2 {
-    right: 10px;
+    right: 1%;
 }
 
 
