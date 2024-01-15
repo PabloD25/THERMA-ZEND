@@ -190,19 +190,18 @@
     overflow: hidden;
     text-align: center;
 }
-.Clientes .Carrusel_2 .Container_img_Carrusel_2{
+.Clientes .Carrusel_2 .Tabla_img_Carrusel_2{
     width: 86%;
     display: flex;
     transition: transform 0.5s ease-in-out;
     margin: 0 auto;
 }
-.Clientes .Carrusel_2 .Container_img_Carrusel_2 .img_carrusel_2{
+.Clientes .Carrusel_2 .Tabla_img_Carrusel_2 .img_carrusel_2{
     width: 40%;
 }
-.Clientes .Carrusel_2 .Container_img_Carrusel_2 img{
+.Clientes .Carrusel_2 .Tabla_img_Carrusel_2 img{
     width: 80%;
 }
-
 .Clientes .Carrusel_2 button{
     position: absolute;
     top: 50%;
@@ -217,7 +216,6 @@
 #btn_Anterior_Carrusel_2 {
     left: 1%;
 }
-
 #btn_Siguiente_Carrusel_2 {
     right: 1%;
 }
