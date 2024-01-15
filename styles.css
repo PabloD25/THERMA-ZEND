@@ -175,6 +175,56 @@
     padding: 0px;
 }
 
+.Clientes{
+    width: 100%;
+    height: auto;
+}
+.Clientes h1{
+    font-size: 50px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.Clientes .Carrusel_2{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-color: blue;
+    text-align: center;
+}
+.Clientes .Carrusel_2 .Container_img_Carrusel_2{
+    width: 86%;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    margin: 0 auto;
+}
+.Clientes .Carrusel_2 .Container_img_Carrusel_2 .img_carrusel_2{
+    width: 40%;
+    background-color: green;
+}
+.Clientes .Carrusel_2 .Container_img_Carrusel_2 img{
+    width: 80%;
+}
+
+.Clientes .Carrusel_2 button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+}
+#btn_Anterior_Carrusel_2 {
+    left: 10px;
+}
+
+#btn_Siguiente_Carrusel_2 {
+    right: 10px;
+}
+
+
 /* Pie_De_Pagina */
 .Pie_De_Pagina{
     width: 100%;
