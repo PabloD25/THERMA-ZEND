@@ -178,10 +178,10 @@
 .Clientes{
     width: 100%;
     height: auto;
+    padding-bottom: 40px;
 }
 .Clientes h1{
     font-size: 50px;
-    padding-top: 20px;
     padding-left: 40px;
 }
 .Clientes .Carrusel_2{
@@ -206,18 +206,22 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 18px;
+    font-size: 25px;
     padding: 10px;
     cursor: pointer;
-    background-color: #3498db;
-    color: #fff;
+    background-color: #e9e8e9;
+    color: black;
     border: none;
 }
+.Clientes .Carrusel_2 button:hover{
+    background-color: black;
+    color: white;
+}
 #btn_Anterior_Carrusel_2 {
-    left: 1%;
+    left: 2%;
 }
 #btn_Siguiente_Carrusel_2 {
-    right: 1%;
+    right: 2%;
 }
 
 
