@@ -58,9 +58,19 @@ document.addEventListener('DOMContentLoaded', function() {
 
   btnSiguiente.addEventListener('click', function() {
     index_C2++;
-    if (index_C2 >= Object.keys(diccionario_Clientes).length) {
+    console.log("index_C2 = ", index_C2)
+    if (index_C2 >= 6) {
       // Si llega al final, vuelve al principio
       index_C2 = 0;
+    }
+    actualizarClientes();
+  });
+  btnAnterior.addEventListener('click', function() {
+    index_C2--;
+    console.log("index_C2 = ", index_C2)
+    if (index_C2 < 0) {
+      // Si llega al principio, vuelve al final
+      index_C2 = 5;
     }
     actualizarClientes();
   });
