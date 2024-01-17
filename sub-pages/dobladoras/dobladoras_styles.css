@@ -1,35 +1,48 @@
-/*
-.Dob_Encabezado ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position: -webkit-sticky; /* Safari 
-    position: sticky;
-    top: 0;
-  }
-  
-.Dob_Encabezado li {
-    float: right;
-}
-  
-.Dob_Encabezado li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-  
-.Dob_Encabezado li a:hover {
-    background-color: #111;
-}
+/*  */
 
-.Dob_Encabezado .Dob_Titulo:hover {
-    background-color: #333;
+/* Pie_De_Pagina */
+.Pie_De_Pagina{
+    width: 100%;
+    height: auto;
 }
-.active {
-    background-color: #04AA6D;
-  }
-  */
+.Pie_De_Pagina .Tabla_Pie_De_Pagina{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: #e9e8e9;
+}
+.Pie_De_Pagina .Tabla_Pie_De_Pagina .Celda_Empresa_Pie_De_Pagina{
+    text-align: center;
+    width: 60%;
+}
+.Pie_De_Pagina .Tabla_Pie_De_Pagina .Celda_Empresa_Pie_De_Pagina h1{
+    font-size: 50px;
+    color: red;
+}
+.Pie_De_Pagina .Tabla_Pie_De_Pagina .Celda_Empresa_Pie_De_Pagina button{
+    background-color: #e9e8e9;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 21px;
+}
+.Pie_De_Pagina .Tabla_Pie_De_Pagina .Celda_Empresa_Pie_De_Pagina button:hover{
+    background-color: black;
+    color: white;
+}
+.Pie_De_Pagina .Tabla_Pie_De_Pagina .Tabla_Redes_Sociales_Pie_De_Pagina{
+    width: 30%;
+    height: auto;
+    border-collapse: collapse;
+}
+.Pie_De_Pagina .Tabla_Pie_De_Pagina .Tabla_Redes_Sociales_Pie_De_Pagina button{
+    width: 80%;
+    height: auto;
+    border: 0px;
+    margin-right: 20%;
+    background-color: transparent;
+}
+.Pie_De_Pagina .Tabla_Pie_De_Pagina .Tabla_Redes_Sociales_Pie_De_Pagina img{
+    width: 100%;
+    height: auto;
+}
