@@ -30,9 +30,23 @@ body p{
     width: 60%;
     height: auto;
     margin: 0 auto;
-    border: 2px solid red;
 }
-
+.Dob_Encabezado table td{
+    width: 25%;
+}
+.Dob_Encabezado td button{
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+.Dob_Encabezado td button:hover{
+    background-color: white;
+    border-radius: 25px;
+}
 .Dob_Parrafo_1 p{
     width: 50%;
     margin: 0 auto;
