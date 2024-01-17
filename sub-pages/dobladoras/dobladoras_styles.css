@@ -1,4 +1,50 @@
-/*  */
+/* Body */
+body{
+    text-align: center;
+}
+body h1{
+    font-size: 54px;
+    color: red;
+}
+body h2{
+    font-size: 35px;
+    color: black;
+}
+body h4{
+    font-size: 18px;
+
+}
+body p{
+    font-size: 18px;
+}
+
+/* Dob_Encabezado */
+.Dob_Encabezado {
+    width: 100%;
+    height: auto;
+    background-color: #e9e8e9;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.Dob_Encabezado table{
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+
+.Dob_Parrafo_1 p{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.Dob_Tipos_Dobladoras{
+    background-color: #e9e8e9;
+}
+
+.Dob_Accesorios{
+    background-color: #e9e8e9;
+}
 
 /* Pie_De_Pagina */
 .Pie_De_Pagina{
