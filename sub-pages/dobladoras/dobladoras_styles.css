@@ -22,7 +22,8 @@ body p{
     width: 100%;
     height: auto;
     background-color: #e9e8e9;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .Dob_Encabezado table{
     width: 60%;
@@ -50,22 +51,54 @@ body p{
 .Dob_Caracteristicas{
     width: 100%;
     height: auto;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 60px;
     text-align: justify;
-    background-color: cadetblue;
+}
+.Dob_Caracteristicas table{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+.Dob_Caracteristicas table td{
+    width: 50%;
+    height: auto;
+    margin-right: 100px;
+    background-color: white;
+}
+.Dob_Caracteristicas table td:hover{
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    transform: scale(1.2);
+}
+.Dob_Caracteristicas .Img_Dob_Caracteristicas:hover{
+    transform: none;
+    border-top: 0;
+    border-bottom: 0;
+    background-color: white;
+}
+.Dob_Caracteristicas table td img{
+    width: 100%;
+    height: auto;
+}
+.Dob_Caracteristicas .negritas{
+    font-weight: bold;
+    font-size: 40px;
 }
 
 /* Dob_Parrafo_1 */
 .Dob_Parrafo_1 p{
     width: 50%;
     margin: 0 auto;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /* Dob_Tipos_Dobladoras */
 .Dob_Tipos_Dobladoras{
     background-color: #e9e8e9;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .Dob_Tipos_Dobladoras table{
     width: 100%;
@@ -84,7 +117,8 @@ body p{
 /* Dob_Accesorios */
 .Dob_Accesorios{
     background-color: #e9e8e9;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .Dob_Accesorios table{
     width: 100%;
