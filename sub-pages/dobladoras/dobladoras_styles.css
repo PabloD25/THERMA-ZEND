@@ -11,11 +11,10 @@ body h2{
     color: black;
 }
 body h4{
-    font-size: 18px;
-
+    font-size: 20px;
 }
 body p{
-    font-size: 18px;
+    font-size: 20px;
 }
 
 /* Dob_Encabezado */
@@ -51,17 +50,28 @@ body p{
 .Dob_Parrafo_1 p{
     width: 50%;
     margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /* Dob_Tipos_Dobladoras */
 .Dob_Tipos_Dobladoras{
     background-color: #e9e8e9;
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 .Dob_Tipos_Dobladoras table{
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
-    background-color: blue;
+}
+.Dob_Tipos_Dobladoras table td{
+    width: 33%;
+}
+.Dob_Tipos_Dobladoras table img{
+    width: 70%;
+    height: auto;
+    border: 5px solid black;
+    border-radius: 15px;
 }
 
 /* Dob_Accesorios */
