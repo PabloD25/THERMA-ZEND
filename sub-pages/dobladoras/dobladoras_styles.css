@@ -114,6 +114,31 @@ body p{
     border-radius: 15px;
 }
 
+.Dob_DVA{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.Dob_DVA img{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+.Dob_DVA .Dob_Texto_Sobrepuesto{
+    position: absolute;
+    text-align: center;
+}
+.Dob_DVA .Dob_Texto_Sobrepuesto .Dob_Fondo_Texto{
+    width: 200px;
+    height: auto;
+    background-color: rgba(233, 232, 233, 0.5);
+    color: black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
 /* Dob_Accesorios */
 .Dob_Accesorios{
     background-color: #e9e8e9;
