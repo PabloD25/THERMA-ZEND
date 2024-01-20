@@ -15,3 +15,6 @@ Ctrl + K Ctrl + 0
 
 ### Unfold all code
 Ctrl + K Ctrl + J
+
+### Close/Open Terminal Area
+Ctrl + J
