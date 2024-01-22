@@ -1,3 +1,52 @@
+/* Body */
+body{
+    text-align: center;
+}
+body h1{
+    font-size: 54px;
+    color: red;
+}
+body h2{
+    font-size: 35px;
+    color: black;
+}
+body h4{
+    font-size: 20px;
+}
+body p{
+    font-size: 20px;
+}
+
+/* Hor_Encabezado */
+.Hor_Encabezado {
+    width: 100%;
+    height: auto;
+    background-color: #e9e8e9;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.Hor_Encabezado table{
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+}
+.Hor_Encabezado table td{
+    width: 25%;
+}
+.Hor_Encabezado td button{
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+.Hor_Encabezado td button:hover{
+    background-color: white;
+    border-radius: 25px;
+}
+
 /* Pie_De_Pagina */
 .Pie_De_Pagina{
     width: 100%;
