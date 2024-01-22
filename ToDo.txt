@@ -1,8 +1,3 @@
-Dobladoras:
-- Hacer el "Explore #DoWhatYouWant" en Dobladoras
-    + Seran las caracteristicas generales de las dobladoras
-    + No poner enlaces, pero si hacer que cuando pasen el mouse por una de las caracteristicas estas cambien de color sus bordes o se hagan mas grandes o algo
-
 Index / Pie de pagina:
 - Crearles redes sociales
 
