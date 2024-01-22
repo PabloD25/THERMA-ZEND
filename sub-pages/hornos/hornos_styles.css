@@ -18,7 +18,7 @@ body p{
 }
 
 /* Hor_Encabezado */
-.Hor_Encabezado {
+.Hor_Encabezado{
     width: 100%;
     height: auto;
     background-color: #e9e8e9;
@@ -45,6 +45,34 @@ body p{
 .Hor_Encabezado td button:hover{
     background-color: white;
     border-radius: 25px;
+}
+
+/* Hor_Tipos_Hornos */
+.Hor_Tipos_Hornos{
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.Hor_Tipos_Hornos table{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+.Hor_Tipos_Hornos table td{
+    width: 27%;
+    height: auto;
+    padding: 10px;
+}
+.Hor_Tipos_Hornos table td img{
+    width: 100%;
+    height: auto;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+.Hor_Tipos_Hornos table .Hor_Tipos_Hornos_Td_Central{
+    width: 46%;
+    height: auto;
 }
 
 /* Pie_De_Pagina */
