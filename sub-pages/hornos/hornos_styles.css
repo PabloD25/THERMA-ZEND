@@ -53,6 +53,7 @@ body p{
     height: auto;
     padding-top: 20px;
     padding-bottom: 60px;
+    overflow: hidden;
 }
 .Hor_Tipos_Hornos table{
     width: 90%;
@@ -93,11 +94,13 @@ body p{
 .Hor_Accesorios table td{
     width: 50%;
     height: auto;
-    padding: 20px;
+    padding-bottom: 60px;
+    position: relative;
+    background-color: green;
 }
 .Hor_Accesorios table td img{
-    width: 237px;
-    height: 260px;
+    width: 100%;
+    height: auto;
     border: 5px solid black;
     border-radius: 15px;
     object-fit: cover;
