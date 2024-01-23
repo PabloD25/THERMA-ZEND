@@ -75,6 +75,28 @@ body p{
     height: auto;
 }
 
+/* Hor_Accesorios */
+.Hor_Accesorios{
+    width: 100%;
+    height: auto;
+    background-color: #e9e8e9;
+}
+.Hor_Accesorios table{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+.Hor_Accesorios table td{
+    width: 50%;
+    height: auto;
+    padding: 20px;
+}
+.Hor_Accesorios table td img{
+    width: 100%;
+    height: auto;
+    border: 5px solid black;
+    border-radius: 15px;
+}
 /* Pie_De_Pagina */
 .Pie_De_Pagina{
     width: 100%;
