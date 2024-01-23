@@ -63,16 +63,19 @@ body p{
     width: 27%;
     height: auto;
     padding: 10px;
+    padding-left: ;
 }
 .Hor_Tipos_Hornos table td img{
-    width: 100%;
-    height: auto;
+    width: 312px;
+    height: 262px;
     border: 5px solid black;
     border-radius: 15px;
+    object-fit: cover;
 }
-.Hor_Tipos_Hornos table .Hor_Tipos_Hornos_Td_Central{
-    width: 46%;
-    height: auto;
+.Hor_Tipos_Hornos table .Hor_Tipos_Hornos_Td_Central img{
+    width: 553px;
+    height: 558px;
+    object-fit: cover;
 }
 
 /* Hor_Accesorios */
