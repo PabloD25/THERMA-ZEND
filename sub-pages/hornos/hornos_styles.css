@@ -94,12 +94,12 @@ body p{
     width: 50%;
     height: auto;
     padding: 20px;
-    
 }
 .Hor_Accesorios table td .Hor_Accesorios_Contenedor{
     position: relative;
-    width: 50%; 
-    padding-top: 105%;  /* Proporción 1.05:1 */
+    width: 60%; 
+    padding-top: 66.1%;  /* Proporción 59:65 */
+    margin: 0 auto;
     overflow: hidden;
     border: 5px solid black;
     border-radius: 15px;
