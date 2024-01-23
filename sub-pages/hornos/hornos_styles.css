@@ -79,6 +79,8 @@ body p{
 .Hor_Accesorios{
     width: 100%;
     height: auto;
+    padding-top: 20px;
+    padding-bottom: 60px;
     background-color: #e9e8e9;
 }
 .Hor_Accesorios table{
@@ -97,6 +99,35 @@ body p{
     border: 5px solid black;
     border-radius: 15px;
 }
+
+/* Hor_Caracteristicas */
+.Hor_Caracteristicas{
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.Hor_Caracteristicas table{
+
+}
+.Hor_Caracteristicas table td{
+
+}
+.Hor_Caracteristicas table td img {
+
+}
+.Hor_Caracteristicas table td .Hor_Caracteristicas_Lista_Especificaciones{
+    text-align: justify;
+    list-style: none;
+    padding: 20px;
+    font-size: 15px;
+}
+.Hor_Caracteristicas table td .Hor_Caracteristicas_Lista_Especificaciones li::before{
+    content: "-";
+    margin-right: 0.5em;
+}
+
+
 /* Pie_De_Pagina */
 .Pie_De_Pagina{
     width: 100%;
