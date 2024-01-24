@@ -55,12 +55,49 @@ body p{
     padding-bottom: 20px;   
 }
 .Con_Datos table{
-    width: 60%;
+    width: 50%;
     height: auto;
     margin: 0 auto;
+    text-align: justify;
 }
 .Con_Datos table td{
-    width: 25%;
+    width: 20%;
+}
+.Con_Datos table .Input_Con_Datos{
+    width: 80%;
+}
+.Con_Datos table .Input_Con_Datos input, .Con_Datos table .Input_Con_Datos textarea {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.Con_Datos table .Input_Con_Datos textarea{
+    resize: vertical;
+    min-height: 50px;
+}
+.Con_Datos button{
+    width: 10%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    background-color: black;
+
+    border-radius: 10px;
+    border: 2px solid black;
+
+    font-size: 20px;
+    font-family: "boogaloo", serif;
+    color: white;
+
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.Con_Datos button:hover{
+    background-color: white;
+    color: black;
 }
 
 /* Pie_De_Pagina */
