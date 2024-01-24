@@ -47,6 +47,22 @@ body p{
     border-radius: 25px;
 }
 
+/* Con_Datos */
+.Con_Datos{
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;   
+}
+.Con_Datos table{
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+}
+.Con_Datos table td{
+    width: 25%;
+}
+
 /* Pie_De_Pagina */
 .Pie_De_Pagina{
     width: 100%;
