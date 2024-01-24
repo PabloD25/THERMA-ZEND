@@ -52,7 +52,7 @@ body p{
     width: 100%;
     height: auto;
     padding-top: 20px;
-    padding-bottom: 20px;   
+    padding-bottom: 60px;   
 }
 .Con_Datos table{
     width: 50%;
@@ -78,11 +78,15 @@ body p{
     resize: vertical;
     min-height: 50px;
 }
-.Con_Datos button{
-    width: 10%;
+.Con_Datos table .Td_Btn_Tabla_Con_Datos{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.Con_Datos table button{
+    width: 30%;
     height: auto;
     margin-top: 20px;
-    margin-bottom: 60px;
     background-color: black;
 
     border-radius: 10px;
@@ -95,7 +99,7 @@ body p{
     padding: 10px 20px;
     cursor: pointer;
 }
-.Con_Datos button:hover{
+.Con_Datos table button:hover{
     background-color: white;
     color: black;
 }
