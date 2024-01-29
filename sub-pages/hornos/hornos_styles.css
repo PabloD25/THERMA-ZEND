@@ -7,8 +7,11 @@ body h1{
     color: red;
 }
 body h2{
-    font-size: 35px;
+    font-size: 48px;
     color: black;
+}
+body h3{
+    font-size: 30px;
 }
 body h4{
     font-size: 20px;
@@ -120,14 +123,24 @@ body p{
     padding-top: 20px;
     padding-bottom: 60px;
 }
+.Hor_Caracteristicas .Hor_Caracteristicas_Encabezado{
+    width: 50%;
+    margin: 0 auto;
+}
 .Hor_Caracteristicas table{
     width: 90%;
     height: auto;
     margin: 0 auto;
 }
 .Hor_Caracteristicas table td{
-    width: 50%;
+    width: 20%;
     height: auto;
+}
+.Hor_Caracteristicas table .Celda_Especificaciones{
+    width: 80%;
+    padding-left: 40px;
+    text-align: justify;
+    vertical-align: top;
 }
 .Hor_Caracteristicas table td img {
     width: 354px;
@@ -137,10 +150,9 @@ body p{
     object-fit: cover;
 }
 .Hor_Caracteristicas table td .Hor_Caracteristicas_Lista_Especificaciones{
-    text-align: justify;
     list-style: none;
     padding: 20px;
-    font-size: 15px;
+    font-size: 24px;
 }
 .Hor_Caracteristicas table td .Hor_Caracteristicas_Lista_Especificaciones li::before{
     content: "-";
