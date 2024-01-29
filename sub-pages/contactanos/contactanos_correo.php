@@ -47,6 +47,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     } else {
         echo "<h4>Todos los campos son obligatorios. Complete el formulario correctamente.</h4>";
+        
     }
 }
 
