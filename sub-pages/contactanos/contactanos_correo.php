@@ -19,7 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $descripcion = $_POST['descripcion'];
 
         // Destinatario del correo
-        $destinatario = "empresa@gmail.com";
+        $destinatario = "thefaceyouwerelookingfor@gmail.com";
 
         // Asunto del correo
         $asuntoCorreo = "Nuevo formulario de contacto: $asunto";
