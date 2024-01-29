@@ -28,49 +28,51 @@
     <div class="Con_Datos">
         <p>Contáctenos sobre cualquier cosa relacionada con nuestra empresa o servicios.</p>
         <p>Haremos todo lo posible para ponernos en contacto lo antes posible.</p>
-        <table>
-            <tr>
-                <td><h4>Nombre:</h4></td>
-                <td class="Input_Con_Datos">
-                    <input type="text" name="nombre">
-                </td>
-            </tr>
-            <tr>
-                <td><h4>Teléfono:</h4></td>
-                <td class="Input_Con_Datos">
-                    <input type="tel" name="telefono">
-                </td>
-            </tr>
-            <tr>
-                <td><h4>Email:</h4></td>
-                <td class="Input_Con_Datos">
-                    <input type="email" name="correo">
-                </td>
-            </tr>
-            <tr>
-                <td><h4>Compañia:</h4></td>
-                <td class="Input_Con_Datos">
-                    <input type="text" name="compania">
-                </td>
-            </tr>
-            <tr>
-                <td><h4>Asunto:</h4></td>
-                <td class="Input_Con_Datos">
-                    <input type="text" name="asunto">
-                </td>
-            </tr>
-            <tr>
-                <td><h4>Descripción:</h4></td>
-                <td class="Input_Con_Datos">
-                    <textarea name="descripcion"></textarea>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2" class="Td_Btn_Tabla_Con_Datos">
-                    <button type="button">ENVIAR</button>
-                </td>
-            </tr>
-        </table>
+        <form method="post" action="contactanos_correo.php">
+            <table>
+                <tr>
+                    <td><h4>Nombre:</h4></td>
+                    <td class="Input_Con_Datos">
+                        <input type="text" name="nombre">
+                    </td>
+                </tr>
+                <tr>
+                    <td><h4>Teléfono:</h4></td>
+                    <td class="Input_Con_Datos">
+                        <input type="tel" name="telefono">
+                    </td>
+                </tr>
+                <tr>
+                    <td><h4>Email:</h4></td>
+                    <td class="Input_Con_Datos">
+                        <input type="email" name="correo">
+                    </td>
+                </tr>
+                <tr>
+                    <td><h4>Compañia:</h4></td>
+                    <td class="Input_Con_Datos">
+                        <input type="text" name="compania">
+                    </td>
+                </tr>
+                <tr>
+                    <td><h4>Asunto:</h4></td>
+                    <td class="Input_Con_Datos">
+                        <input type="text" name="asunto">
+                    </td>
+                </tr>
+                <tr>
+                    <td><h4>Descripción:</h4></td>
+                    <td class="Input_Con_Datos">
+                        <textarea name="descripcion"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="Td_Btn_Tabla_Con_Datos">
+                        <button type="button">ENVIAR</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
     </div>
     <div class="Pie_De_Pagina">
         <table class="Tabla_Pie_De_Pagina">
