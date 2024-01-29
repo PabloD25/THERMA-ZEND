@@ -1,6 +1,10 @@
 Index / Pie de pagina:
 - Crearles redes sociales
 
+Contactanos:
+- Una vez subida la pagina web a el servidor oficial comprobar si este permite el uso del metodo POST para enviar correos
+- Otra opción seria el almacenamiento de los correos en una base de datos como Firebase, u otra
+
 Al final:
 - Cambiar el color de la interfaz, no usar blanco, Rojo y negro puros, usar otros tonos
 - Cambiar el tipo de letra
