@@ -97,7 +97,7 @@ body p{
 .Dob_Tipos_Dobladoras{
     background-color: #e9e8e9;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 60px;
 }
 .Dob_Tipos_Dobladoras table{
     width: 100%;
@@ -144,10 +144,9 @@ body p{
 
 /* Dob_Accesorios */
 .Dob_Accesorios{
-    background-color: blue;
+    background-color: #e9e8e9;
     padding-top: 20px;
     padding-bottom: 60px;
-    color:red;
 }
 .Dob_Accesorios table{
     width: 100%;
@@ -155,7 +154,6 @@ body p{
 }
 .Dob_Accesorios table td{
     width: 33%;
-    background-color: aqua;
 }
 .Dob_Accesorios table img{
     width: 70%;
