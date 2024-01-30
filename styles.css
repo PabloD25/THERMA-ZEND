@@ -21,10 +21,12 @@
     background-color: transparent;
     border: none;
     font-size: 25px;
+    color: #e9e8e9;
     border-radius: 10px;
     font-family: "boogaloo", serif;
 }
 .Carrusel .Encabezado_Carrusel .btn_carrusel:hover {
+    color: black;
     background-color: #ffffff;
 }
 .Carrusel .Container_img_Carrusel{
