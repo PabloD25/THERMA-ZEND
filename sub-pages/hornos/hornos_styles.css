@@ -97,7 +97,38 @@ body p{
     object-fit: cover;
     display: block;
 }
-
+.Hor_Tipos_Hornos table .Hor_Tipos_Hornos_Td_Central .Hor_Sobrepuesto__Central_1{
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    z-index: 1;
+}
+.Hor_Tipos_Hornos table .Hor_Tipos_Hornos_Td_Central .Hor_Sobrepuesto__Central_1 .Hor_Fondo_Texto__Central_1{
+    width: 100%;
+    height: auto;
+    color: #e9e8e9;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 50px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin: 10px;
+}
+.Hor_Tipos_Hornos table .Hor_Tipos_Hornos_Td_Central .Hor_Sobrepuesto__Central_2{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    z-index: 1;
+}
+.Hor_Tipos_Hornos table .Hor_Tipos_Hornos_Td_Central .Hor_Sobrepuesto__Central_2 .Hor_Fondo_Texto__Central_2{
+    width: 100%;
+    height: auto;
+    color: #e9e8e9;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 50px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin: 10px;
+}
 
 /* Hor_Accesorios */
 .Hor_Accesorios{
