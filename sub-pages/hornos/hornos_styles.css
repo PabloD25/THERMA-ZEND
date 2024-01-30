@@ -79,6 +79,20 @@ body p{
     height: 558px;
     object-fit: cover;
 }
+.Hor_Tipos_Hornos table td .Hor_Texto_Sobrepuesto{
+    position: absolute;
+    background-color: green;
+}
+.Hor_Tipos_Hornos table td .Hor_Texto_Sobrepuesto .Hor_Fondo_Texto{
+    width: 200px;
+    height: auto;
+    background-color: red;
+    color: blue;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
 
 /* Hor_Accesorios */
 .Hor_Accesorios{
