@@ -1,3 +1,9 @@
+// Por ahora actua como si solo fuera una pagina web para computadora.
+
+- Imagenes
+- Pie de pagina (Ese si siempre el mismo)
+- Movil
+
 Index / Pie de pagina:
 - Crearles redes sociales
 
@@ -8,5 +14,4 @@ Contactanos:
 Al final:
 - Cambiar el color de la interfaz, no usar blanco, Rojo y negro puros, usar otros tonos
 - Cambiar el tipo de letra
-- Cambair las imagenes de gatos
 - Revisar todos los textos con el Autocorrector
