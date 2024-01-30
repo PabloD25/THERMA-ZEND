@@ -4,6 +4,9 @@
 - Pie de pagina (Ese si siempre el mismo)
 - Movil
 
+Index:
+- Preguntarle a Vero que imagenes poner en el carrusel
+
 Index / Pie de pagina:
 - Crearles redes sociales
 
