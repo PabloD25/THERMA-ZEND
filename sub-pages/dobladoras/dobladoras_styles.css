@@ -144,9 +144,10 @@ body p{
 
 /* Dob_Accesorios */
 .Dob_Accesorios{
-    background-color: #e9e8e9;
+    background-color: blue;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 60px;
+    color:red;
 }
 .Dob_Accesorios table{
     width: 100%;
@@ -154,6 +155,7 @@ body p{
 }
 .Dob_Accesorios table td{
     width: 33%;
+    background-color: aqua;
 }
 .Dob_Accesorios table img{
     width: 70%;
