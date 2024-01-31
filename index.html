@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>THERMA-ZEND</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>THERMA-ZEND</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Scripts -->
+    <script src="footer/footerLoader.js"></script>
+    <script src="scripts.js"></script>
 </head>
 <body>
     <div class="Carrusel">
@@ -34,11 +37,11 @@
                         </a>
                     </td>
                     <td>
-                        <img src="images/Imagen3.png" alt="Imagen 3" class="img_carrusel">
+                        <img src="images/index/00_dobladoras.png" alt="Imagen 3" class="img_carrusel">
                         <button type="button" id="btn_carrusel_imagen_3" class="btn_carrusel_imagen">Mas Información 3</button>
                     </td>
                     <td>
-                        <img src="images/Imagen4.png" alt="Imagen 4" class="img_carrusel">
+                        <img src="images/index/01_hornos.png" alt="Imagen 4" class="img_carrusel">
                         <a href="sub-pages/contactanos/contactanos.html">
                             <button type="button" id="btn_carrusel_imagen_4" class="btn_carrusel_imagen">Mas Información 4</button>
                         </a>
@@ -146,35 +149,8 @@
         </div>
     </div>
     <div class="Pie_De_Pagina">
-        <table class="Tabla_Pie_De_Pagina">
-            <tr>
-                <td class= "Celda_Empresa_Pie_De_Pagina">
-                    <h1>THERMA-ZEND</h1>
-                    <h2>Llega a tu maximo potencial de producción</h2>
-                    <button type="button" id="btn_contactanos">Contactanos</button>
-                </td>
-                <td>
-                    <p>scinfrarroja@hotmail.com</p>
-                    <p>+55 2410 9194 o 55 3553 5733</p>
-                    <p>Av Tlalnepantla 123-A, El Olivo II Parte Alta Carlos Pichardo Cruz, 54119 Tlalnepantla, Méx.</p>
-                    <table class="Tabla_Redes_Sociales_Pie_De_Pagina">
-                        <tr>
-                            <td>
-                                <button type="button"><img src="images/icons/facebook.png" alt="facebook" class="img_Redes_Rociales_Pie_De_Pagina"></button>
-                            </td>
-                            <td>
-                                <button type="button"><img src="images/icons/instagram.png" alt="instagram" class="img_Redes_Rociales_Pie_De_Pagina"></button>
-                            </td>
-                            <td>
-                                <button type="button"><img src="images/icons/youtube.png" alt="youtube" class="img_Redes_Rociales_Pie_De_Pagina"></button>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
+        <script> loadFooter(); </script>
     </div>
-
-  <script src="scripts.js"></script>
+    
 </body>
 </html>
