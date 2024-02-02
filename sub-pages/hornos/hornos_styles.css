@@ -104,13 +104,13 @@ body p{
 .Hor_Tipos_Hornos table .Hor_Tipos_Hornos_Td_Central .Hor_Sobrepuesto__Central_1{
     position: absolute;
     top: 5%;
-    left: 25%;
+    left: 30%;
     z-index: 1;
 }
 .Hor_Tipos_Hornos table .Hor_Tipos_Hornos_Td_Central .Hor_Sobrepuesto__Central_2{
     position: absolute;
     top: 15%;
-    left: 15%;
+    left: 25%;
     z-index: 1;
 }
 .Hor_Tipos_Hornos table .Hor_Tipos_Hornos_Td_Central .Hor_Sobrepuesto__Central_1 .Hor_Fondo_Texto__Central_1, .Hor_Tipos_Hornos table .Hor_Tipos_Hornos_Td_Central .Hor_Sobrepuesto__Central_2 .Hor_Fondo_Texto__Central_2{
@@ -118,20 +118,10 @@ body p{
     height: auto;
     color: #e9e8e9;
     background-color: rgba(0, 0, 0, 0.7);
-    font-size: 350%;
+    font-size: 200%;
     padding: 5px 10px;
     border-radius: 15px;
     margin: 10px;
-}
-@media only screen and (max-width: 600px) {
-    .Hor_Tipos_Hornos table td .Hor_Texto_Sobrepuesto .Hor_Fondo_Texto{
-        background-color: red;
-    }
-}
-@media only screen and (max-width: 2000px) {
-    .Hor_Tipos_Hornos table td .Hor_Texto_Sobrepuesto .Hor_Fondo_Texto{
-        background-color: blue;
-    }
 }
 /* Hor_Accesorios */
 .Hor_Accesorios{
