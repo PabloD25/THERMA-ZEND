@@ -1,3 +1,8 @@
+.Tamano{
+    width: 90%;
+    margin: 0 auto;
+}
+
 /* Carrusel */
 .Carrusel {
     width: 100%;
@@ -95,7 +100,8 @@
     font-size: 50px;
 }
 .Vendidos .Tabla_Vendidos {
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
     border-collapse: collapse;
 }
 .Vendidos .Tabla_Vendidos .Tarjeta_Vendidos{
@@ -151,7 +157,7 @@
 
 /* Nosotros */
 .Nosotros .Tabla_Nosotros{ 
-    width: 84%;
+    width: 90%;
     height: auto;
     padding: 20px;
     margin: 0 auto;
@@ -166,13 +172,11 @@
     text-align: justify;
     font-size: 24px;
 }
-
 .Nosotros .Tabla_Nosotros .Img_Historia{
     width: 80%;
     height: auto;
     margin: 0 auto;
 }
-
 .Nosotros .Tabla_Nosotros img{
     width: 100%;
     height: auto;
@@ -207,44 +211,26 @@
 }
 .Clientes h1{
     font-size: 50px;
-    padding-left: 40px;
+    padding: 0px;
+    padding-left: 11%;
 }
-.Clientes .Carrusel_2{
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    text-align: center;
-}
-.Clientes .Carrusel_2 .Tabla_img_Carrusel_2{
-    width: 86%;
-    display: flex;
-    transition: transform 0.5s ease-in-out;
+.Clientes table{
+    width: 60%;
+    height: auto;
     margin: 0 auto;
 }
-.Clientes .Carrusel_2 .Tabla_img_Carrusel_2 .img_carrusel_2{
-    width: 40%;
+.Clientes table .clientes_Price_Shoes_td{
+    width: 50%;
+    height: auto;
+    padding-right: 5%;
+    text-align: right;
 }
-.Clientes .Carrusel_2 .Tabla_img_Carrusel_2 img{
-    width: 80%;
+.Clientes table td img{
+    width: 70%;
 }
-.Clientes .Carrusel_2 button{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 25px;
-    padding: 10px;
-    cursor: pointer;
-    background-color: #e9e8e9;
-    color: black;
-    border: none;
+.Clientes table .clientes_Cree_td{
+    padding-left: 5%;
 }
-.Clientes .Carrusel_2 button:hover{
-    background-color: black;
-    color: white;
-}
-#btn_Anterior_Carrusel_2 {
-    left: 2%;
-}
-#btn_Siguiente_Carrusel_2 {
-    right: 2%;
+.Clientes table .clientes_Cree_td img{
+    width: 50%;
 }
