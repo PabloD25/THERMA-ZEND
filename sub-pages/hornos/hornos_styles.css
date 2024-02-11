@@ -137,6 +137,9 @@ body p{
     padding-bottom: 40px;
     background-color: #e9e8e9;
 }
+.Hor_Accesorios h2{
+    margin-bottom: 0px;
+}
 .Hor_Accesorios table{
     width: 80%;
     height: auto;
@@ -177,7 +180,7 @@ body p{
     margin: 0 auto;
 }
 .Hor_Caracteristicas table{
-    width: 90%;
+    width: 79%;
     height: auto;
     margin: 0 auto;
 }
