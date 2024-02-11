@@ -127,8 +127,8 @@ body p{
 .Hor_Accesorios{
     width: 100%;
     height: auto;
-    padding-top: 20px;
-    padding-bottom: 60px;
+    padding-top: 5px;
+    padding-bottom: 40px;
     background-color: #e9e8e9;
 }
 .Hor_Accesorios table{
@@ -195,7 +195,8 @@ body p{
 .Hor_Caracteristicas table td .Hor_Caracteristicas_Lista_Especificaciones{
     list-style: none;
     padding: 20px;
-    font-size: 24px;
+    font-family: 'Montserrat';
+    font-size: 18px;
 }
 .Hor_Caracteristicas table td .Hor_Caracteristicas_Lista_Especificaciones li::before{
     content: "-";
