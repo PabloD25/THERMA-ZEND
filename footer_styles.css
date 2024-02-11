@@ -21,8 +21,8 @@
     color: red;
 }
 .Pie_De_Pagina table .Celda_Empresa_Pie_De_Pagina p{
-    font-size: 22px;
-    color: black;
+    font-size: 17px;
+    font-family: 'Montserrat';
 }
 .Pie_De_Pagina table .Celda_Empresa_Pie_De_Pagina button{
     background-color: black;
@@ -37,9 +37,10 @@
     color: black;
 }
 .Pie_De_Pagina table .Celda_Datos_Pie_De_Pagina{
-    font-size: 20px;
+    font-size: 18px;
     text-align: justify;
     padding-left: 8%;
+    font-family: 'Montserrat';
 }
 .Pie_De_Pagina table .Tabla_Redes_Sociales_Pie_De_Pagina{
     width: 24%;
