@@ -21,8 +21,8 @@
     color: red;
 }
 .Pie_De_Pagina table .Celda_Empresa_Pie_De_Pagina h2{
-    font-size: 24px;
-    color: black;
+    font-size: 30px;
+    color: green;
 }
 .Pie_De_Pagina table .Celda_Empresa_Pie_De_Pagina button{
     background-color: black;
@@ -51,7 +51,9 @@
     height: auto;
     border: 0px;
     margin-right: 20%;
-    background-color: transparent;
+}
+.Pie_De_Pagina table .Tabla_Redes_Sociales_Pie_De_Pagina button:hover{
+    cursor: pointer;
 }
 .Pie_De_Pagina table .Tabla_Redes_Sociales_Pie_De_Pagina img{
     width: 100%;
