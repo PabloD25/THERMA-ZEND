@@ -20,9 +20,9 @@
     font-size: 50px;
     color: red;
 }
-.Pie_De_Pagina table .Celda_Empresa_Pie_De_Pagina h2{
-    font-size: 30px;
-    color: green;
+.Pie_De_Pagina table .Celda_Empresa_Pie_De_Pagina p{
+    font-size: 22px;
+    color: black;
 }
 .Pie_De_Pagina table .Celda_Empresa_Pie_De_Pagina button{
     background-color: black;
