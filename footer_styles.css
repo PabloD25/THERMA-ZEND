@@ -4,6 +4,8 @@
     width: 100%;
     height: auto;
     background-color: #e9e8e9;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 .Pie_De_Pagina table{
     width: 90%;
@@ -25,6 +27,7 @@
 .Pie_De_Pagina table .Celda_Empresa_Pie_De_Pagina button{
     background-color: black;
     border: 2px solid white;
+    color: #e9e8e9;
     border-radius: 20px;
     padding: 10px 20px;
     font-size: 21px;
