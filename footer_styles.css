@@ -23,15 +23,15 @@
     color: black;
 }
 .Pie_De_Pagina table .Celda_Empresa_Pie_De_Pagina button{
-    background-color: #e9e8e9;
+    background-color: black;
     border: 2px solid white;
     border-radius: 20px;
     padding: 10px 20px;
     font-size: 21px;
 }
 .Pie_De_Pagina table .Celda_Empresa_Pie_De_Pagina button:hover{
-    background-color: black;
-    color: white;
+    background-color: #e9e8e9;
+    color: black;
 }
 .Pie_De_Pagina table .Celda_Datos_Pie_De_Pagina{
     font-size: 20px;

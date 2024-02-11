@@ -147,6 +147,7 @@
 .Parrafo_2 {
     text-align: center;
     padding: 20px;
+    padding-bottom: 0px;
 }
 .Parrafo_2 h1 {
     font-size: 50px;
@@ -160,6 +161,7 @@
     width: 90%;
     height: auto;
     padding: 20px;
+    padding-top: 0px;
     margin: 0 auto;
 }
 .Nosotros .Tabla_Nosotros h1{
@@ -175,7 +177,6 @@
 .Nosotros .Tabla_Nosotros .Nosotros_texto{
     width: 65%;
 } 
-
 .Nosotros .Tabla_Nosotros .Img_Historia{
     width: 100%;
     height: auto;
