@@ -52,7 +52,7 @@ body p{
     width: 100%;
     height: auto;
     padding-top: 20px;
-    padding-bottom: 60px;
+    padding-bottom: 20px;
     text-align: justify;
 }
 .Dob_Caracteristicas table{
@@ -63,7 +63,6 @@ body p{
 .Dob_Caracteristicas table td{
     width: 40%;
     height: auto;
-    background-color: white;
 }
 .Dob_Caracteristicas table td:hover{
     border-top: 3px solid black;
@@ -74,7 +73,6 @@ body p{
     transform: none;
     border-top: 0;
     border-bottom: 0;
-    background-color: white;
 }
 .Dob_Caracteristicas table td img{
     width: 100%;
@@ -89,8 +87,7 @@ body p{
 .Dob_Parrafo_1 p{
     width: 50%;
     margin: 0 auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
 /* Dob_Tipos_Dobladoras */
@@ -100,7 +97,7 @@ body p{
     padding-bottom: 60px;
 }
 .Dob_Tipos_Dobladoras table{
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
 }
 .Dob_Tipos_Dobladoras table td{
