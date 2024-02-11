@@ -7,14 +7,15 @@ body h1{
     color: red;
 }
 body h2{
-    font-size: 35px;
+    font-size: 40px;
     color: black;
 }
 body h4{
     font-size: 20px;
 }
 body p{
-    font-size: 20px;
+    font-size: 18px;
+    font-family: 'Montserrat';
 }
 
 /* Dob_Encabezado */
@@ -96,6 +97,9 @@ body p{
     padding-top: 20px;
     padding-bottom: 60px;
 }
+.Dob_Tipos_Dobladoras h2{
+    color: red;
+}
 .Dob_Tipos_Dobladoras table{
     width: 90%;
     margin: 0 auto;
@@ -113,7 +117,6 @@ body p{
 /* Dob_DVA */
 .Dob_DVA{
     padding-top: 20px;
-    padding-bottom: 20px;
     position: relative;
 }
 .Dob_DVA img{
@@ -138,7 +141,26 @@ body p{
     background-color: rgba(233, 232, 233, 0.7);
     transform: scale(1.2);
 }
-
+.Dob_DVA .Dob_Texto_Sobrepuesto2{
+    position: absolute;
+}
+.Dob_DVA .Dob_Texto_Sobrepuesto2 .Dob_Fondo_Texto{
+    width: 200px;
+    height: auto;
+    background-color: rgba(98, 97, 98, 0.5);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.Dob_DVA .Dob_Texto_Sobrepuesto2 .Dob_Fondo_Texto h4{
+    font-size: 15px;
+}
+.Dob_DVA .Dob_Texto_Sobrepuesto2 .Dob_Fondo_Texto:hover{
+    background-color: rgba(233, 232, 233, 0.7);
+    color: black;
+    transform: scale(1.2);
+}
 /* Dob_Accesorios */
 .Dob_Accesorios{
     background-color: #e9e8e9;
@@ -146,7 +168,7 @@ body p{
     padding-bottom: 60px;
 }
 .Dob_Accesorios table{
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
 }
 .Dob_Accesorios table td{
