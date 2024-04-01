@@ -17,7 +17,10 @@ body p{
     font-size: 18px;
     font-family: 'Montserrat';
 }
-
+/* header.html */
+.Encabezado{
+    background-color: red;
+}
 /* Dob_Encabezado */
 .Dob_Encabezado {
     width: 100%;

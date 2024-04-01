@@ -1,4 +1,4 @@
-function loadFooter() {
+function loadFooter(BackgroundColor) {
     // Cargar el pie de página desde footer/footer.html
     fetch('../../footer.html')
         .then(response => response.text())

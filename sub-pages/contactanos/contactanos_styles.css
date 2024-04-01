@@ -25,27 +25,6 @@ body p{
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.Con_Encabezado table{
-    width: 60%;
-    height: auto;
-    margin: 0 auto;
-}
-.Con_Encabezado table td{
-    width: 25%;
-}
-.Con_Encabezado td button{
-    width: 100%;
-    padding: 10px 20px;
-    font-size: 20px;
-    font-weight: bold;
-    background-color: transparent;
-    cursor: pointer;
-    border: none;
-}
-.Con_Encabezado td button:hover{
-    background-color: white;
-    border-radius: 25px;
-}
 
 /* Con_Datos */
 .Con_Datos{
