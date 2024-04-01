@@ -42,6 +42,19 @@
     padding-left: 8%;
     font-family: 'Montserrat';
 }
+.Pie_De_Pagina table .Celda_Datos_Pie_De_Pagina .contact-footer{
+    display: flex;
+    flex-direction: column;
+}
+.Pie_De_Pagina table .Celda_Datos_Pie_De_Pagina .btn-contacto{
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Montserrat';
+    background-color: #e9e8e9;
+    border: none;
+    margin-top: 5%;
+    cursor: pointer;
+}
 .Pie_De_Pagina table .Tabla_Redes_Sociales_Pie_De_Pagina{
     width: 24%;
     height: auto;
