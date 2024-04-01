@@ -1,7 +1,4 @@
-body{
-    background-color: black;
-}
-.Encabezado_Carrusel{
+.Encabezado{
     position: absolute;
     top: 2%;
     left: 50%;
@@ -13,7 +10,18 @@ body{
     color: red;
     border-collapse: collapse;
 }
-.Encabezado_Carrusel .btn_carrusel {
+
+.Encabezado th .btn-Index{
+    text-align: center;
+    font-size: 50px;
+    color: red;
+    background-color: transparent;
+    border: none;
+    font-family: 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+.Encabezado .btn-Encabezado {
     background-color: transparent;
     border: none;
     font-size: 25px;
@@ -21,7 +29,7 @@ body{
     border-radius: 10px;
     font-family: "boogaloo", serif;
 }
-.Encabezado_Carrusel .btn_carrusel:hover {
+.Encabezado .btn-Encabezado:hover {
     color: black;
     background-color: #ffffff;
 }
