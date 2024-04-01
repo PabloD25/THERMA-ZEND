@@ -31,5 +31,5 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Iniciar el carrusel automáticamente cada 3 segundo
-    setInterval(cambiarImagen, 1000);
+    setInterval(cambiarImagen, 3000);
 });
