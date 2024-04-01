@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
-    console.log("El archivo carrusel.js se ha cargado correctamente.");
-  
-    /* Carrusel */
+      
+    /* Carrusel de imagenes*/
 
     // Referencias
     const containerCarrusel = document.querySelector('.Container_img_Carrusel');
