@@ -26,6 +26,41 @@ body p{
     padding-bottom: 20px;
 }
 
+/* Clientes */
+.Clientes{
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+}
+.Clientes h1{
+    font-size: 50px;
+    padding: 0px;
+    padding-left: 11%;
+    text-align: justify;
+    color: black;
+}
+.Clientes table{
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+}
+.Clientes table .clientes_Price_Shoes_td{
+    width: 50%;
+    height: auto;
+    padding-right: 5%;
+    text-align: right;
+}
+.Clientes table td img{
+    width: 70%;
+}
+.Clientes table .clientes_Cree_td{
+    padding-left: 5%;
+}
+.Clientes table .clientes_Cree_td img{
+    width: 50%;
+}
+
+
 /* Con_Datos */
 .Con_Datos{
     width: 100%;
