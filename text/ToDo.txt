@@ -1,20 +1,18 @@
-// Por ahora actua como si solo fuera una pagina web para computadora.
-
-- Imagenes
-- Pie de pagina (Ese si siempre el mismo)
-- Movil
-
-Index:
-- Preguntarle a Vero que imagenes poner en el carrusel
-
-Index / Pie de pagina:
-- Crearles redes sociales
-
 Contactanos:
-- Una vez subida la pagina web a el servidor oficial comprobar si este permite el uso del metodo POST para enviar correos
-- Otra opción seria el almacenamiento de los correos en una base de datos como Firebase, u otra
+- Mapa
+- Enviar correo (Hacerlo igual que en el pie de pagina) o si no tratar con un POST
 
-Al final:
-- Cambiar el color de la interfaz, no usar blanco, Rojo y negro puros, usar otros tonos
-- Cambiar el tipo de letra
+Hornos:
+- Orden:
+    Horno (producto)
+    Accesorios
+        Cabina (producto)
+        Equipo de pintura (producto)
+    Kit
+    "Incluye Horno, Cabina y Equip de pintura"
+// En cada uno de los productos poner Imagen, descripción y comprar Ahora, estilo presentación
+
+Todo el Sitio Web:
+- Revisar Responsividad
+- Normalizar el tipo de letra
 - Revisar todos los textos con el Autocorrector
