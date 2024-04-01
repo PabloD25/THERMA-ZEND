@@ -1,4 +1,8 @@
 .Encabezado{
+    width: 100%;
+    background-color: black;
+}
+.tabla-Encabezado{
     position: absolute;
     top: 2%;
     left: 50%;
@@ -10,8 +14,7 @@
     color: red;
     border-collapse: collapse;
 }
-
-.Encabezado th .btn-Index{
+.tabla-Encabezado .btn-index{
     text-align: center;
     font-size: 50px;
     color: red;
@@ -21,7 +24,7 @@
     font-weight: bold;
 }
 
-.Encabezado .btn-Encabezado {
+.tabla-Encabezado .btn-Encabezado {
     background-color: transparent;
     border: none;
     font-size: 25px;
@@ -29,7 +32,7 @@
     border-radius: 10px;
     font-family: "boogaloo", serif;
 }
-.Encabezado .btn-Encabezado:hover {
+.tabla-Encabezado .btn-Encabezado:hover {
     color: black;
     background-color: #ffffff;
 }
