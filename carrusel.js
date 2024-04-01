@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // Referencias
   const containerCarrusel = document.querySelector('.Container_img_Carrusel');
   const imagenes = document.querySelectorAll('.img_carrusel');
+  const numImagenes = imagenes.length;
   let imagen_actual = 0;
 
   // Función para cambiar la imagen del carrusel
@@ -16,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
           imagen_actual = 0;
       }
       // Calcular la cantidad de movimiento
-      const cantidadMovimiento = imagen_actual * 25;
+      const cantidadMovimiento = imagen_actual * (100 / numImagenes);
       // Mover el carrusel
       moverItem(containerCarrusel, 'izquierda', cantidadMovimiento);
   }
@@ -29,5 +30,5 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   // Iniciar el carrusel automáticamente cada 3 segundo
-  setInterval(cambiarImagen, 3000);
+  setInterval(cambiarImagen, 1000);
 });
