@@ -3,6 +3,7 @@ Contactanos:
 - Enviar correo (Hacerlo igual que en el pie de pagina) o si no tratar con un POST
 
 Hornos:
+Dejar las 5 imagenes de arriba pero abajo poner este orden
 - Orden:
     Horno (producto)
     Accesorios
@@ -12,11 +13,14 @@ Hornos:
     "Incluye Horno, Cabina y Equip de pintura"
 // En cada uno de los productos poner Imagen, descripción y comprar Ahora, estilo presentación
 
+Dobladoras:
+Titulo 
+
 Index:
 - Quitar Productos mas vendidos y poner una tabla con todos los productos (Solo titulo e imagen), 
 y al darles clic cada producto tendra su propia pagina (programarlo para que sea en base a una plantilla)
 En la pagina de cada uno que hay a Imagen, Descripción (Sacarla de la pagina viejita), Boton comprar Ahora con link a Mercado Libre
- 
+
 
 Todo el Sitio Web:
 - Revisar Responsividad
