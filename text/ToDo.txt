@@ -12,6 +12,12 @@ Hornos:
     "Incluye Horno, Cabina y Equip de pintura"
 // En cada uno de los productos poner Imagen, descripción y comprar Ahora, estilo presentación
 
+Index:
+- Quitar Productos mas vendidos y poner una tabla con todos los productos (Solo titulo e imagen), 
+y al darles clic cada producto tendra su propia pagina (programarlo para que sea en base a una plantilla)
+En la pagina de cada uno que hay a Imagen, Descripción (Sacarla de la pagina viejita), Boton comprar Ahora con link a Mercado Libre
+ 
+
 Todo el Sitio Web:
 - Revisar Responsividad
 - Normalizar el tipo de letra
