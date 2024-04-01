@@ -17,6 +17,36 @@ body p{
     font-size: 18px;
     font-family: 'Montserrat';
 }
+
+/* Carrusel */
+.Carrusel {
+    width: 100%;
+    margin: 0 auto;     
+    position: relative;
+    overflow: hidden;
+}
+.Carrusel .Container_img_Carrusel{
+    width: 400%;
+}
+.Carrusel .Tabla_Img_Carrusel{
+    width: 100%;
+}
+.Carrusel .Tabla_Img_Carrusel td {
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    vertical-align: top;
+    position: relative;
+}
+.Carrusel .Tabla_Img_Carrusel img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.Transicion {
+    transition: transform 0.5s ease-in-out;
+}
+
 /* Dob_Encabezado */
 .Dob_Encabezado {
     width: 100%;
