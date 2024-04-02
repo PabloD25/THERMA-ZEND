@@ -171,7 +171,6 @@ body p{
 }
 .Hor_Horno_infrarrojo table td img{
     width: 100%;
-    border: 5px solid black;
     border-radius: 15px;
 }
 .Hor_Horno_infrarrojo table td button{
@@ -199,39 +198,41 @@ body p{
 .Hor_Accesorios{
     width: 100%;
     height: auto;
-    padding-top: 5px;
-    padding-bottom: 40px;
-    background-color: #e9e8e9;
-}
-.Hor_Accesorios h2{
-    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 60px;
 }
 .Hor_Accesorios table{
-    width: 80%;
-    height: auto;
-    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 60px;
 }
 .Hor_Accesorios table td{
     width: 50%;
-    height: auto;
-    padding: 20px;
 }
-.Hor_Accesorios table td .Hor_Accesorios_Contenedor{
-    position: relative;
-    width: 60%; 
-    padding-top: 66.1%;  /* Proporción 59:65 */
-    margin: 0 auto;
-    overflow: hidden;
-    border: 5px solid black;
+.Hor_Accesorios table td p{
+    margin: 5%;
+}
+.Hor_Accesorios table td img{
+    width: 100%;
     border-radius: 15px;
 }
-.Hor_Accesorios table td .Hor_Accesorios_Contenedor img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.Hor_Accesorios table td button{
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    background-color: black;
+
+    border-radius: 10px;
+    border: 2px solid black;
+
+    font-size: 20px;
+    font-family: "boogaloo", serif;
+    color: white;
+
+    padding: 10px 20px;
+}
+.Hor_Accesorios table td button:hover{
+    background-color: white;
+    color: black;
 }
 
 /* Hor_Caracteristicas */
