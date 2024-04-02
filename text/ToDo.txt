@@ -1,6 +1,6 @@
 Contactanos:
-- Mapa (Listo)
-- Enviar correo (Hacerlo igual que en el pie de pagina) o si no tratar con un POST
+- Mapa [LISTO]
+- Enviar correo (No se pudo con POST, pide APIS o un Servidor) [LISTO]
 
 Hornos:
 Dejar las 5 imagenes de arriba pero abajo poner este orden
