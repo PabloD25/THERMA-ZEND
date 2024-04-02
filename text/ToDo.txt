@@ -1,5 +1,5 @@
 Contactanos:
-- Mapa
+- Mapa (Listo)
 - Enviar correo (Hacerlo igual que en el pie de pagina) o si no tratar con un POST
 
 Hornos:
