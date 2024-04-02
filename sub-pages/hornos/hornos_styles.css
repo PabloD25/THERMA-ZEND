@@ -121,7 +121,6 @@ body p{
     border-radius: 15px;
     margin: 10px;
 }
-
 .Hor_Tipos_Hornos table .Hor_Tipos_Hornos_Td_Central{
     width: 47%;
 }
@@ -153,6 +152,49 @@ body p{
     border-radius: 15px;
     margin: 10px;
 }
+/* Hor_Horno_infrarrojo */
+.Hor_Horno_infrarrojo{
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    background-color: #e9e8e9;
+}
+.Hor_Horno_infrarrojo table{
+    width: 100%;
+}
+.Hor_Horno_infrarrojo table td{
+    width: 50%;
+}
+.Hor_Horno_infrarrojo table td p{
+    margin: 5%;
+}
+.Hor_Horno_infrarrojo table td img{
+    width: 100%;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+.Hor_Horno_infrarrojo table td button{
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    background-color: black;
+
+    border-radius: 10px;
+    border: 2px solid black;
+
+    font-size: 20px;
+    font-family: "boogaloo", serif;
+    color: white;
+
+    padding: 10px 20px;
+}
+.Hor_Horno_infrarrojo table td button:hover{
+    background-color: white;
+    color: black;
+}
+
+
 /* Hor_Accesorios */
 .Hor_Accesorios{
     width: 100%;
