@@ -47,6 +47,7 @@
 
 /* Vendidos */
 .Vendidos{
+    width: 100%;
     text-align: center;
     background-color: #e9e8e9;
     color: black;
@@ -56,30 +57,31 @@
 .Vendidos h1{
     font-size: 50px;
 }
-.Vendidos .Tabla_Vendidos {
+.Vendidos table {
     width: 80%;
     margin: 0 auto;
     border-collapse: collapse;
 }
-.Vendidos .Tabla_Vendidos .Tarjeta_Vendidos{
+.Vendidos table td{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}   
+.Vendidos table .Tarjeta_Vendidos{
     width: 80%;
     height: auto;
     padding: 20px;
     background-color: white;
 
     border-radius: 25px;
-    border: 3px solid black;
 
-
-    display: block;
-    margin: auto;
+    margin: 0 auto;
 }
-.Vendidos .Tabla_Vendidos .img_Vendidos{
+.Vendidos table img{
     max-width: 100%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 25px;
 }
-.Vendidos .Tabla_Vendidos .btn_Vendidos{
+.Vendidos table button{
     max-width: 100%;
     height: auto;
     margin-top: 20px;
@@ -95,7 +97,7 @@
     padding: 10px 20px;
 
 }
-.Vendidos .Tabla_Vendidos .btn_Vendidos:hover {
+.Vendidos table button:hover {
     background-color: white;
     color: black;
 }
