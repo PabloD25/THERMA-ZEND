@@ -56,6 +56,28 @@ body p{
     padding-bottom: 20px;
 }
 
+/* Dob_Dobladoras */
+.Dob_Dobladoras{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.Dob_Dobladoras table{
+    width: 90%;
+    margin: 0 auto;
+}
+.Dob_Dobladoras table td{
+    width: 33%;
+}
+.Dob_Dobladoras table img{
+    width: 70%;
+    height: auto;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+
+
 /* Dob_Caracteristicas */
 .Dob_Caracteristicas{
     width: 100%;
