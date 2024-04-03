@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+}
+body h1{
+    font-size: 54px;
+    color: black;
+    text-align: center;
+}
+body h2{
+    font-size: 40px;
+    color: black;
+}
+body p{
+    font-size: 18px;
+    font-family: 'Montserrat';
+}
+
+/* Producto */
+.Producto{
+    width: 100%;
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+.Producto table td{
+    width: 50%;
+}
+.Producto table img{
+    width: 100%;
+}
+
+.Producto table button{
+   width: 20%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: black;
+
+    border-radius: 10px;
+    border: 2px solid black;
+
+    font-size: 20px;
+    font-family: "boogaloo", serif;
+    color: white;
+
+    padding: 10px 20px;
+
+}
+.Producto table button:hover {
+    background-color: white;
+    color: black;
+}
