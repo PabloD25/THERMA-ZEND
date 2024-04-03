@@ -84,7 +84,7 @@ body p{
     border-radius: 15px;
 }
 .Dob_Dobladoras table button{
-    width: 40%;
+    width: 50%;
     height: auto;
     margin:0 auto;
     margin-top: 20px;
@@ -99,6 +99,9 @@ body p{
 
     padding: 10px 20px;
 
+}
+.Dob_Dobladoras table .Dob_Dobladoras_td_DVA_1500 button{
+    width: 40%;
 }
 .Dob_Dobladoras table button:hover {
     background-color: white;
@@ -128,7 +131,7 @@ body p{
     border-radius: 15px;
 }
 .Dob_Accesorios table button{
-    width: 40%;
+    width: 50%;
     height: auto;
     margin:0 auto;
     margin-top: 20px;
