@@ -68,15 +68,42 @@ body p{
 }
 .Dob_Dobladoras table td{
     width: 33%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.Dob_Dobladoras table .Dob_Dobladoras_td_DVA_1500{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 .Dob_Dobladoras table img{
     width: 70%;
     height: auto;
-    border: 5px solid black;
+    margin: 0 auto;
     border-radius: 15px;
 }
+.Dob_Dobladoras table button{
+    width: 40%;
+    height: auto;
+    margin:0 auto;
+    margin-top: 20px;
+    background-color: black;
 
+    border-radius: 10px;
+    border: 2px solid black;
 
+    font-size: 20px;
+    font-family: "boogaloo", serif;
+    color: white;
+
+    padding: 10px 20px;
+
+}
+.Dob_Dobladoras table button:hover {
+    background-color: white;
+    color: black;
+}
 
 /* Dob_Caracteristicas */
 .Dob_Caracteristicas{
