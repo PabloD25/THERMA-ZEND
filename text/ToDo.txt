@@ -11,6 +11,9 @@ Hornos:
 Dobladoras:
     Imagenes y botones Accesorios Serie I
 
+Contactanos:
+    Mapa Google (Lo detecta como Virus en gitpod)
+
 Todo el Sitio Web:
 - Revisar Responsividad
 - Normalizar el tipo de letra
