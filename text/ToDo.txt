@@ -1,3 +1,6 @@
+// Nota, cuando descargues el contactanos, comenta el mapa para que no marque que es un virus, y despues de descargarlo lo descomentas
+// Lo mismo creo que pasaba con otro archivo (no recuerdo cual)
+
 Index:
     btn_pago: Serie M (Tambien poner en Dobladoras)
 
@@ -10,9 +13,6 @@ Hornos:
 
 Dobladoras:
     Imagenes y botones Accesorios Serie I
-
-Contactanos:
-    Mapa Google (Lo detecta como Virus en gitpod)
 
 Todo el Sitio Web:
 - Revisar Responsividad
