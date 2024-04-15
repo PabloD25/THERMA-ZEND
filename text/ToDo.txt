@@ -4,9 +4,6 @@
 Index:
     btn_pago: Serie M (Tambien poner en Dobladoras)
 
-Productos:
-    Boton Mercardo Pago DVA-1500
-
 Hornos:
     Caracteristicas: Horno Infrarojo, Cabina y Equipo pintura
     Kit: "Incluye Horno, Cabina y Equip de pintura"
