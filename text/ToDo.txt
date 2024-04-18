@@ -1,13 +1,25 @@
 // Nota, cuando descargues el contactanos, comenta el mapa para que no marque que es un virus, y despues de descargarlo lo descomentas
 // Lo mismo creo que pasaba con otro archivo (no recuerdo cual)
 
+Proyecto:
+	Copiar la info de la pagina viejita
+		Mismo texto y si se puede mismas imagenes
+
+Serie M:
+    Hacer una pagina con la misma información de la pagina viejita (seriem.html)
+    Poner un parrafo de información arriba
+    y Abajo 3 imagenes cada una con su boton de pagar(y arriba lo de envio gratis 3 meses sin intereses)
+
 Dobladoras:
     Imagenes y botones Accesorios Serie I
+        Imagenes que al poner le mouse se haga grande el soporte y se resalte
 
-Poryectos:
-    Texto de proyectos
+Google Ads:
+    Copiar el codigo que estaba en la pagina viejita para rastrear de donde nos visitan
+
 
 Todo el Sitio Web:
 - Revisar Responsividad
 - Normalizar el tipo de letra
+- Normalizar botones
 - Revisar todos los textos con el Autocorrector

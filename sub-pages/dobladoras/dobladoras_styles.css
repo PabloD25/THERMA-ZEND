@@ -18,27 +18,6 @@ body p{
     font-family: 'Montserrat';
 }
 
-button{
-    max-width: 100%;
-    height: auto;
-    margin-top: 20px;
-    background-color: red;
-
-    border-radius: 10px;
-    border: 2px solid black;
-
-    font-size: 20px;
-    font-family: "boogaloo", serif;
-    color: white;
-
-    padding: 10px 20px;
-}
-
-button:hover{
-    background-color: white;
-    color: black;
-}
-
 /* Carrusel */
 .Carrusel {
     width: 100%;
@@ -150,6 +129,46 @@ button:hover{
     height: auto;
     margin: 0 auto;
     border-radius: 15px;
+}
+.Dob_Accesorios table td button{
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    background-color: black;
+
+    border-radius: 10px;
+    border: 2px solid black;
+
+    font-size: 20px;
+    font-family: "boogaloo", serif;
+    color: white;
+
+    padding: 10px 20px;
+}
+
+.Dob_Accesorios table td button:hover{
+    background-color: white;
+    color: black;
+}
+.Dob_Accesorios table td .btn_pagar button{
+    max-width: 50%;
+    height: auto;
+    margin-top: 20px;
+    background-color: black;
+
+    border-radius: 10px;
+    border: 2px solid black;
+
+    font-size: 20px;
+    font-family: "boogaloo", serif;
+    color: white;
+
+    padding: 10px 20px;
+}
+
+.Dob_Accesorios table td .btn_pagar button:hover{
+    background-color: white;
+    color: black;
 }
 
 /* Dob_Caracteristicas */
