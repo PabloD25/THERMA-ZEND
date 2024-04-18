@@ -152,6 +152,28 @@ body p{
     border-radius: 15px;
     margin: 10px;
 }
+.Hor_Tipos_Hornos .btn_personaliza{
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    background-color: black;
+
+    border-radius: 10px;
+    border: 2px solid black;
+
+    font-size: 20px;
+    font-family: "boogaloo", serif;
+    color: white;
+
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.Hor_Tipos_Hornos .btn_personaliza:hover{
+    background-color: white;
+    color: black;
+}
+
+
 /* Hor_Horno_infrarrojo */
 .Hor_Horno_infrarrojo{
     width: 100%;

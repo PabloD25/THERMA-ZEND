@@ -65,6 +65,7 @@
     height: auto;
     border: 0px;
     margin-right: 20%;
+    cursor: pointer;
 }
 .Pie_De_Pagina table .Tabla_Redes_Sociales_Pie_De_Pagina button:hover{
     cursor: pointer;

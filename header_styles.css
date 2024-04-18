@@ -21,6 +21,7 @@
     border: none;
     font-family: 'Times New Roman', serif;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .Encabezado .tabla-Encabezado .btn-Encabezado {
@@ -30,6 +31,7 @@
     color: #e9e8e9;
     border-radius: 10px;
     font-family: "boogaloo", serif;
+    cursor: pointer;
 }
 
 .Encabezado .tabla-Encabezado .btn-Encabezado:hover {
