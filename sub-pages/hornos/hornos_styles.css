@@ -20,6 +20,26 @@ body p{
     font-family: 'Montserrat';
 }
 
+button{
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    background-color: black;
+
+    border-radius: 10px;
+    border: 2px solid black;
+
+    font-size: 20px;
+    font-family: "boogaloo", serif;
+    color: white;
+
+    padding: 10px 20px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+
 /* Carrusel */
 .Carrusel {
     width: 100%;
@@ -308,38 +328,7 @@ body p{
     padding-bottom: 60px;
 }
 .Hor_Caracteristicas .Hor_Caracteristicas_Encabezado{
-    width: 50%;
-    margin: 0 auto;
-}
-.Hor_Caracteristicas table{
-    width: 79%;
-    height: auto;
-    margin: 0 auto;
-}
-.Hor_Caracteristicas table td{
-    width: 20%;
-    height: auto;
-}
-.Hor_Caracteristicas table .Celda_Especificaciones{
     width: 80%;
-    padding-left: 40px;
-    text-align: justify;
-    vertical-align: top;
+    margin: 0 auto;
 }
-.Hor_Caracteristicas table td img {
-    width: 354px;
-    height: 389px;
-    border: 5px solid black;
-    border-radius: 15px;
-    object-fit: cover;
-}
-.Hor_Caracteristicas table td .Hor_Caracteristicas_Lista_Especificaciones{
-    list-style: none;
-    padding: 20px;
-    font-family: 'Montserrat';
-    font-size: 18px;
-}
-.Hor_Caracteristicas table td .Hor_Caracteristicas_Lista_Especificaciones li::before{
-    content: "-";
-    margin-right: 0.5em;
-}
+

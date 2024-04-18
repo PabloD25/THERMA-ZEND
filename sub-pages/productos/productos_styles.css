@@ -19,7 +19,7 @@ body p{
 .Producto{
     width: 100%;
     margin-top: 15%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 .Producto .Info{
     background-color: #e9e8e9;
@@ -34,12 +34,21 @@ body p{
 .Producto .Info .Texto{
     padding: 60px;
 }
-
-.Producto .pagar{
-    padding-top: 40px;
-    padding-bottom: 60px;
+.Producto .Info .Texto .Txt_Rojo{
+    color: red;
 }
-.Producto .pagar button{
+
+.Producto .Pagar{
+    padding-top: 20px;
+}
+.Producto .Pagar p{
+    font-weight: bold;
+}
+.Producto .Pagar .Txt_Azul{
+    color: blue;
+}
+
+.Producto .Pagar button{
     width: 20%;
     height: auto;
     margin: 0 auto;
@@ -53,7 +62,7 @@ body p{
     color: white;
 
 }
-.Producto .pagar button:hover {
+.Producto .Pagar button:hover {
     background-color: white;
     color: black;
 }

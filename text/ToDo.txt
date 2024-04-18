@@ -1,15 +1,20 @@
 // Nota, cuando descargues el contactanos, comenta el mapa para que no marque que es un virus, y despues de descargarlo lo descomentas
 // Lo mismo creo que pasaba con otro archivo (no recuerdo cual)
 
+Productos:
+    Ajustar JC1000, JC1500 y DVA1500 al mismo estilo que JC500
+
 Index:
     btn_pago: Serie M (Tambien poner en Dobladoras)
 
 Hornos:
-    Caracteristicas: Horno Infrarojo, Cabina y Equipo pintura
     Kit: "Incluye Horno, Cabina y Equip de pintura"
 
 Dobladoras:
     Imagenes y botones Accesorios Serie I
+
+Poryectos:
+    Texto de proyectos
 
 Todo el Sitio Web:
 - Revisar Responsividad
