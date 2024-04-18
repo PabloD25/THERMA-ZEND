@@ -194,28 +194,28 @@ body p{
 }
 
 
-/* Hor_Accesorios */
-.Hor_Accesorios{
+/* Hor_Cabina */
+.Hor_Cabina{
     width: 100%;
     height: auto;
     padding-top: 20px;
     padding-bottom: 60px;
 }
-.Hor_Accesorios table{
+.Hor_Cabina table{
     width: 100%;
     padding-bottom: 60px;
 }
-.Hor_Accesorios table td{
+.Hor_Cabina table td{
     width: 50%;
 }
-.Hor_Accesorios table td p{
+.Hor_Cabina table td p{
     margin: 5%;
 }
-.Hor_Accesorios table td img{
+.Hor_Cabina table td img{
     width: 100%;
     border-radius: 15px;
 }
-.Hor_Accesorios table td button{
+.Hor_Cabina table td button{
     max-width: 100%;
     height: auto;
     margin-top: 20px;
@@ -230,7 +230,49 @@ body p{
 
     padding: 10px 20px;
 }
-.Hor_Accesorios table td button:hover{
+.Hor_Cabina table td button:hover{
+    background-color: white;
+    color: black;
+}
+
+/* Hor_Pintura */
+.Hor_Pintura{
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    background-color: #e9e8e9;
+}
+.Hor_Pintura table{
+    width: 100%;
+    padding-bottom: 60px;
+}
+.Hor_Pintura table td{
+    width: 50%;
+}
+.Hor_Pintura table td p{
+    margin: 5%;
+}
+.Hor_Pintura table td img{
+    width: 100%;
+    border-radius: 15px;
+}
+.Hor_Pintura table td button{
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    background-color: black;
+
+    border-radius: 10px;
+    border: 2px solid black;
+
+    font-size: 20px;
+    font-family: "boogaloo", serif;
+    color: white;
+
+    padding: 10px 20px;
+}
+.Hor_Pintura table td button:hover{
     background-color: white;
     color: black;
 }
