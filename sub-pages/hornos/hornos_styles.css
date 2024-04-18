@@ -237,7 +237,8 @@ body p{
     width: 100%;
     border-radius: 15px;
 }
-.Hor_Cabina table td button{
+
+.Hor_Cabina table td .btn_pagar button{
     max-width: 100%;
     height: auto;
     margin-top: 20px;
@@ -250,9 +251,9 @@ body p{
     font-family: "boogaloo", serif;
     color: white;
 
-    padding: 10px 20px;
+    padding: 10px 60px;
 }
-.Hor_Cabina table td button:hover{
+.Hor_Cabina table td .btn_pagar button:hover{
     background-color: white;
     color: black;
 }
@@ -279,7 +280,7 @@ body p{
     width: 100%;
     border-radius: 15px;
 }
-.Hor_Pintura table td button{
+.Hor_Pintura table td .btn_pagar button{
     max-width: 100%;
     height: auto;
     margin-top: 20px;
@@ -292,9 +293,9 @@ body p{
     font-family: "boogaloo", serif;
     color: white;
 
-    padding: 10px 20px;
+    padding: 10px 60px;
 }
-.Hor_Pintura table td button:hover{
+.Hor_Pintura table td .btn_pagar button:hover{
     background-color: white;
     color: black;
 }

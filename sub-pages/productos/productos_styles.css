@@ -21,18 +21,28 @@ body p{
     margin-top: 15%;
     margin-bottom: 10%;
 }
-.Producto table td{
+.Producto .Info{
+    background-color: #e9e8e9;
+    padding-bottom: 60px;
+}
+.Producto .Info td{
     width: 50%;
 }
-.Producto table img{
+.Producto .Info img{
     width: 100%;
 }
+.Producto .Info .Texto{
+    padding: 60px;
+}
 
-.Producto table button{
+.Producto .pagar{
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.Producto .pagar button{
     width: 20%;
     height: auto;
     margin: 0 auto;
-    margin-top: 60px;
     background-color: black;
 
     border-radius: 10px;
@@ -43,7 +53,7 @@ body p{
     color: white;
 
 }
-.Producto table button:hover {
+.Producto .pagar button:hover {
     background-color: white;
     color: black;
 }
