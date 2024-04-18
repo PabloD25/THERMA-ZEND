@@ -10,10 +10,6 @@ Serie M:
     Poner un parrafo de información arriba
     y Abajo 3 imagenes cada una con su boton de pagar(y arriba lo de envio gratis 3 meses sin intereses)
 
-Dobladoras:
-    Imagenes y botones Accesorios Serie I
-        Imagenes que al poner le mouse se haga grande el soporte y se resalte
-
 Google Ads:
     Copiar el codigo que estaba en la pagina viejita para rastrear de donde nos visitan
 
