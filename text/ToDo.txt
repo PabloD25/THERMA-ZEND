@@ -5,11 +5,6 @@ Proyecto:
 	Copiar la info de la pagina viejita
 		Mismo texto y si se puede mismas imagenes
 
-Serie M:
-    Hacer una pagina con la misma información de la pagina viejita (seriem.html)
-    Poner un parrafo de información arriba
-    y Abajo 3 imagenes cada una con su boton de pagar(y arriba lo de envio gratis 3 meses sin intereses)
-
 Google Ads:
     Copiar el codigo que estaba en la pagina viejita para rastrear de donde nos visitan
 

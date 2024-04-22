@@ -8,8 +8,10 @@ body p{
 
 .Productos{
     width: 100%;
-    margin-top: 10%;
     margin-bottom: 10%;
+}
+.Productos img{
+    width: 100%;
 }
 .Productos table{
     width: 90%;

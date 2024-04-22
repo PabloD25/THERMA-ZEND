@@ -31,10 +31,12 @@
     border-radius: 20px;
     padding: 10px 20px;
     font-size: 21px;
+    cursor: pointer;
 }
 .Pie_De_Pagina table .Celda_Empresa_Pie_De_Pagina button:hover{
     background-color: #e9e8e9;
     color: black;
+    cursor: pointer;
 }
 .Pie_De_Pagina table .Celda_Datos_Pie_De_Pagina{
     font-size: 18px;

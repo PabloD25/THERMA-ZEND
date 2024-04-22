@@ -98,6 +98,7 @@ body p{
     color: white;
 
     padding: 10px 20px;
+    cursor: pointer;
 
 }
 .Dob_Dobladoras table .Dob_Dobladoras_td_DVA_1500 button{
@@ -144,6 +145,7 @@ body p{
     color: white;
 
     padding: 10px 20px;
+    cursor: pointer;
 }
 
 .Dob_Accesorios table td button:hover{
@@ -164,6 +166,7 @@ body p{
     color: white;
 
     padding: 10px 20px;
+    cursor: pointer;
 }
 
 .Dob_Accesorios table td .btn_pagar button:hover{
