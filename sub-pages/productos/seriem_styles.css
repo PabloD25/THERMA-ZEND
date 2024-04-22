@@ -1,0 +1,44 @@
+.Productos{
+    width: 100%;
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+.Productos table{
+    width: 100%;
+}
+.Productos table td{
+    width: 33%;
+    padding: 20px;
+}
+
+/* Pagar*/
+.Productos .Pagar{
+    text-align: center;
+    padding-top: 20px;
+}
+.Productos .Pagar p{
+    font-weight: bold;
+}
+.Productos .Pagar .Txt_Azul{
+    color: blue;
+}
+
+
+.Productos .Pagar button{
+    width: 30%;
+    height: auto;
+    margin: 0 auto;
+    background-color: black;
+
+    border-radius: 10px;
+    border: 2px solid black;
+
+    font-size: 20px;
+    font-family: "boogaloo", serif;
+    color: white;
+
+}
+.Productos .Pagar button:hover {
+    background-color: white;
+    color: black;
+}
