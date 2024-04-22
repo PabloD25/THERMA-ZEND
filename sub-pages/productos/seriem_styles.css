@@ -1,3 +1,11 @@
+body{
+    font-family: 'Montserrat';
+}
+
+body p{
+    font-size: 18px;
+}
+
 .Productos{
     width: 100%;
     margin-top: 15%;
@@ -9,6 +17,13 @@
 .Productos table td{
     width: 33%;
     padding: 20px;
+}
+.Productos table td h3{
+    font-size: 18px;
+    font-family: 'Montserrat';
+}
+.Productos table td img{
+    width: 100%;
 }
 
 /* Pagar*/
@@ -22,7 +37,6 @@
 .Productos .Pagar .Txt_Azul{
     color: blue;
 }
-
 
 .Productos .Pagar button{
     width: 30%;
