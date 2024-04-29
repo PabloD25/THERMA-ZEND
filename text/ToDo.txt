@@ -5,6 +5,9 @@ Proyecto:
 	Copiar la info de la pagina viejita
 		Mismo texto y si se puede mismas imagenes
 
+Productos:
+	Botones Pago: Checar los botones pago de la seriem (Creo que estan mal)
+
 Google Ads:
     Copiar el codigo que estaba en la pagina viejita para rastrear de donde nos visitan
 
