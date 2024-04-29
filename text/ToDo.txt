@@ -7,13 +7,3 @@ Proyecto:
 
 Hornos:
 	Falta link btn_Pagar Horno Infrarrojo
-
-Google Ads:
-    Copiar el codigo que estaba en la pagina viejita para rastrear de donde nos visitan
-
-
-Todo el Sitio Web:
-- Revisar Responsividad
-- Normalizar el tipo de letra
-- Normalizar botones
-- Revisar todos los textos con el Autocorrector
