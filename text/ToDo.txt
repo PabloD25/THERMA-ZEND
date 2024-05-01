@@ -1,9 +1,2 @@
 // Nota, cuando descargues el contactanos, comenta el mapa para que no marque que es un virus, y despues de descargarlo lo descomentas
 // Lo mismo creo que pasaba con otro archivo (no recuerdo cual)
-
-Proyecto:
-	Copiar la info de la pagina viejita
-		Mismo texto y si se puede mismas imagenes
-
-Hornos:
-	Falta link btn_Pagar Horno Infrarrojo
