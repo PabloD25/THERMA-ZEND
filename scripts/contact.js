@@ -1,11 +1,11 @@
 function openWhatsApp() {
-    var numeroTelefono = "5535535733";
+    var numeroTelefono = "5516534146";
     window.open("whatsapp://send?phone=" + numeroTelefono);
     }
 
 function enviarCorreo() {
     // Dirección de correo electrónico
-    var correoDestino = "scinfrarroja@hotmail.com";
+    var correoDestino = "pablotorres11001@gmail.com";
     // Asunto del correo
     var asunto = "Información de Maquinas";
 
